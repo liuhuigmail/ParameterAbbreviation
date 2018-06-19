@@ -1,0 +1,101 @@
+﻿ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+org.pdfsam.support.validation.ContainedIntegerValidator,java.util.Set<Integer>,contains,Object,o,int,parseInt,int,integer
+org.pdfsam.InputPdfArgumentsControllerTest,java.util.Arrays,asList,String[],a,String,getAbsolutePath,a,absolute
+org.pdfsam.alternatemix.AlternateMixSelectionPane,org.apache.commons.lang3.StringUtils,defaultIfBlank,String,str,String,get,str,string
+org.pdfsam.context.DefaultUserContext,org.slf4j.Logger,error,Throwable,arg1,BackingStoreException,e,e,exception
+org.pdfsam.community.PdfsamCommunity,org.pdfsam.support.RequireUtils,requireNotBlank,String,arg,String,name,arg,argument
+org.pdfsam.PdfsamApp,java.lang.Runtime,exec,String,command,String,getOpenCmd,cmd,command
+org.pdfsam.support.CircularLinkedListTest,org.pdfsam.support.CircularLinkedList<Integer>,addAll,Collection<? extends Integer>,c,List<Integer>,asList,c,collection
+org.pdfsam.ui.commons.Animations,javafx.animation.Animation,setDelay,Duration,value,Duration,millis,millis,millisecond
+org.pdfsam.extract.ExtractOptionsPane,javafx.scene.control.TextInputControl,setText,String,value,String,orElse,or,other
+org.pdfsam.alternatemix.AlternateMixSelectionPane,java.lang.Integer,parseInt,String,s,String,step,s,step
+org.pdfsam.ui.workarea.QuickbarModuleButtonsProviderTest,java.util.Arrays,asList,Module[],a,DefaultPriorityTestModule,defaultPrio,a,array
+org.pdfsam.module.ModuleDescriptorBuilder,org.apache.commons.lang3.StringUtils,isNotBlank,CharSequence,cs,String,name,cs,char sequence
+org.pdfsam.ui.io.BrowsableField,javafx.scene.layout.Region,setMaxHeight,double,value,double,USE_PREF_SIZE,pref,preference
+org.pdfsam.ui.dialog.OpenWithDialog,javafx.collections.FXCollections,observableArrayList,Collection<? extends String>,col,List<String>,collect,col,collection
+org.pdfsam.context.DefaultUserContext,java.util.prefs.Preferences,get,String,def,String,EMPTY,def,definition
+org.pdfsam.pdf.PdfDocumentDescriptor,org.pdfsam.pdf.PdfDescriptorLoadingStatus,moveTo,PdfDescriptorLoadingStatus,dest,PdfDescriptorLoadingStatus,destination,dest,destination
+org.pdfsam.PdfsamApp,java.lang.System,setProperty,String,key,String,SAMBOX_USE_ASYNC_WRITER,async,asynchronous
+org.pdfsam.alternatemix.AlternateMixSelectionPaneTest,org.pdfsam.pdf.PdfLoadRequestEvent,add,PdfDocumentDescriptor,e,PdfDocumentDescriptor,newDescriptorNoPassword,e,entry
+org.pdfsam.TestUtils,java.lang.Object,equals,Object,obj,T,eq3,eq,equal
+org.pdfsam.support.filter.BaseFileChooserFilterTest,org.pdfsam.support.filter.BaseFileChooserFilter,accept,File,f,File,file,f,file
+org.pdfsam.alternatemix.AlternateMixSelection,java.util.function.Consumer<String>,accept,String,t,String,i,i,string
+org.pdfsam.ui.info.SummaryTab,java.lang.Integer,toString,int,i,Integer,getValue,i,integer
+org.pdfsam.pdf.DefaultSAMBoxLoaderTest,org.mockito.stubbing.OngoingStubbing<PDDocumentInformation>,thenReturn,PDDocumentInformation,value,PDDocumentInformation,info,info,information
+org.pdfsam.i18n.DefaultI18nContext,org.xnap.commons.i18n.I18n,tr,Object,o2,String,value1,o,object
+org.pdfsam.PdfsamApp,javafx.stage.Stage,setScene,Scene,value,Scene,initScene,init,initialize
+org.pdfsam.split.SplitByEveryRadioButton,org.pdfsam.ui.commons.ValidableTextField,setValidator,Validator<String>,validator,Validator<String>,positiveIntRange,int,integer
+org.pdfsam.context.DefaultUserContext,java.lang.Boolean,valueOf,String,s,String,getProperty,s,string
+org.pdfsam.ui.help.HelpPopupSkin,java.util.List<String>,addAll,Collection<? extends String>,cl,ObservableList<String>,getStyleClass,cl,class
+org.pdfsam.TestCycles,org.slf4j.Logger,debug,String,arg0,String,format,arg,argument
+org.pdfsam.pdf.PdfDocumentDescriptor,"java.util.Map<String,String>",putAll,"Map<? extends String,? extends String>",m,"Map<String,String>",info,m,map
+org.pdfsam.ui.selection.multiple.LongColumnTest,org.mockito.stubbing.OngoingStubbing<Long>,thenReturn,Long,value,long,MAX_VALUE,max,maximum
+org.pdfsam.ui.selection.multiple.SelectionTable,java.util.List<SelectionTableRowData>,addAll,Collection<? extends SelectionTableRowData>,c,List<SelectionTableRowData>,collect,c,collection
+org.pdfsam.ui.io.BrowsableField,java.util.List<Node>,add,Node,e,ValidableTextField,textField,e,text
+org.pdfsam.ui.io.BrowsableDirectoryField,java.util.function.Consumer<DragEvent>,accept,DragEvent,t,DragEvent,e,e,event
+org.pdfsam.ui.dashboard.about.AboutDashboardPane,org.apache.commons.io.FileUtils,byteCountToDisplaySize,long,size,long,maxMemory,max,maximum
+org.pdfsam.alternatemix.AlternateMixModule,org.pdfsam.module.ModuleDescriptorBuilder,name,String,name,String,n,n,name
+org.pdfsam.ui.prefix.PrefixFieldTest,java.lang.String,contains,CharSequence,s,String,getFriendlyName,s,sequence
+org.pdfsam.module.ModuleDescriptor,java.util.List<ModuleInputOutputType>,contains,Object,o,ModuleInputOutputType,type,o,object
+org.pdfsam.TestUtils,java.lang.Object,equals,Object,obj,NotInstanceOf,NOT_INSTANCE_OF,obj,object
+org.pdfsam.configuration.JarSignatureFilterTest,org.pdfsam.configuration.JarSignatureFilter,test,Path,p,Path,toPath,p,path
+org.pdfsam.task.BulkRotateTaskTest,org.sejda.core.service.TaskTestContext,directoryOutputTo,SingleOrMultipleOutputTaskParameters,params,BulkRotateParameters,parameters,params,parameters
+org.pdfsam.i18n.DefaultI18nContext,java.util.Set<Locale>,contains,Object,only_o,Locale,onlyLanguage,o,object
+org.pdfsam.ui.io.BrowseEventHandler,org.apache.commons.lang3.StringUtils,isNotBlank,CharSequence,cs,String,currentSelection,cs,current selection
+org.pdfsam.ui.selection.single.SingleSelectionPaneTest,org.pdfsam.context.DefaultUserContext,setBooleanPreference,BooleanUserPreference,pref,BooleanUserPreference,SAVE_PWD_IN_WORKSPACE,pref,preference
+org.pdfsam.ui.workarea.QuickbarModuleButtonsProviderTest,java.util.Arrays,asList,Module[],a,LowPriorityTestModule,lowPrio,prio,priority
+org.pdfsam.ui.PreferencesRecentWorkspacesServiceTest,org.junit.Assert,assertEquals,long,expected,int,MAX_CAPACITY,max,maximum
+org.pdfsam.support.validation.FileTypeValidatorTest,org.pdfsam.support.validation.Validators,existingFileType,FileType,type,FileType,PDF,pdf,portable document format
+org.pdfsam.ui.log.LogMessageBroadcaster,ch.qos.logback.classic.Level,isGreaterOrEqual,Level,r,Level,ERROR,r,error
+org.pdfsam.ui.io.BrowsableField,java.util.List<Node>,add,Node,e,Node,value,e,value
+org.pdfsam.ui.selection.multiple.SelectionTable,java.util.List<MenuItem>,add,MenuItem,e,MenuItem,duplicateItem,e,item
+org.pdfsam.splitbybookmarks.SplitByOutlineLevelParametersBuilderTest,org.junit.Assert,assertEquals,Object,actual,String,getMatchingTitleRegEx,reg,regular
+org.pdfsam.news.LatestNewsControllerTest,org.pdfsam.news.LatestNewsController,onShowNewsPanel,ShowNewsPanelRequest,req,ShowNewsPanelRequest,INSTANCE,req,request
+org.pdfsam.i18n.DefaultI18nContext,org.xnap.commons.i18n.I18n,tr,Object,o1,String,value,o,object
+org.pdfsam.task.BulkRotateParameters,java.util.Collections,unmodifiableSet,Set<? extends PdfRotationInput>,s,Set<PdfRotationInput>,inputSet,s,set
+org.pdfsam.ui.dashboard.preference.PreferenceConfig,java.util.List<KeyStringValueItem<String>>,add,KeyStringValueItem<String>,e,KeyStringValueItem<String>,keyValue,e,key
+org.pdfsam.ui.commons.SetPageRangesRequest,org.apache.commons.lang3.StringUtils,defaultString,String,defaultStr,String,EMPTY,str,string
+org.pdfsam.task.BulkRotateTask,org.slf4j.Logger,debug,Object,arg1,File,tmpFile,tmp,temporary
+org.pdfsam.ui.commons.UrlButtonTest,org.junit.Assert,assertEquals,Object,expected,String,URL,url,uniform resource locator
+org.pdfsam.ui.commons.ClosePane,java.util.List<Node>,add,Node,e,Button,closeButton,e,node
+org.pdfsam.extract.ExtractOptionsPane,java.util.function.Consumer<String>,accept,String,t,String,getMessage,t,get
+org.pdfsam.ui.selection.multiple.LoadingStatusCell,org.pdfsam.ui.selection.LoadingStatusIndicatorUpdater,accept,PdfDescriptorLoadingStatus,t,PdfDescriptorLoadingStatus,item,t,item
+org.pdfsam.pdf.SAMBoxPdfLoadService,"java.util.function.BiConsumer<PDDocument,PdfDocumentDescriptor>",accept,PdfDocumentDescriptor,u,PdfDocumentDescriptor,current,u,current
+org.pdfsam.ui.notification.NotificationsController,org.pdfsam.ui.notification.NotificationsController,buildLabel,NotificationType,type,NotificationType,GO_PRO,pro,property
+org.pdfsam.context.DefaultUserContext,org.slf4j.Logger,error,Throwable,arg1,BackingStoreException,e,e,exception
+org.pdfsam.alternatemix.AlternateMixModule,org.pdfsam.module.ModuleDescriptorBuilder,inputTypes,ModuleInputOutputType[],inputTypes,ModuleInputOutputType,MULTIPLE_PDF,pdf,portable document format
+org.pdfsam.premium.PremiumModulesControllerTest,java.util.Arrays,asList,PremiumModule[],a,PremiumModule,data,a,data
+org.pdfsam.ui.io.BasePdfVersionEventTest,org.junit.Assert,assertFalse,boolean,condition,boolean,hasPdfVersion,pdf,portable document format
+org.pdfsam.task.PdfRotationInput,java.util.Set<PagesSelection>,addAll,Collection<? extends PagesSelection>,c,List<PagesSelection>,orElseGet,or,other
+org.pdfsam.ui.dashboard.preference.PreferenceIntTextFieldTest,org.pdfsam.context.UserContext,setIntegerPreference,int,value,int,anyInt,int,integer
+org.pdfsam.pdf.PdfLoadRequestEvent,java.util.Collections,unmodifiableCollection,Collection<? extends PdfDocumentDescriptor>,p_d_c,Collection<PdfDocumentDescriptor>,documents,c,collection
+org.pdfsam.pdf.PdfDocumentDescriptorTest,org.pdfsam.pdf.PdfDocumentDescriptor,setInformationDictionary,"Map<String,String>",info,"HashMap<String,String>",values,info,information
+org.pdfsam.ui.selection.multiple.LongColumnTest,org.pdfsam.ui.selection.multiple.SelectionTableColumn<Number>,getTextValue,Number,item,long,currentTimeMillis,millis,millisecond
+org.pdfsam.support.params.MultiplePdfSourceMultipleOutputParametersBuilder,java.util.Set<PdfFileSource>,add,PdfFileSource,e,PdfFileSource,input,e,file
+org.pdfsam.alternatemix.AlternateMixModule,org.pdfsam.ui.support.Views,titledPane,String,titleString,String,tl,tl,title
+org.pdfsam.ui.banner.WorkspaceMenu,org.pdfsam.ui.io.FileChoosers,getFileChooser,FileType,filter,FileType,JSON,json,javaScript object notation
+org.pdfsam.test.DefaultPriorityTestModule,org.pdfsam.module.ModuleDescriptorBuilder,inputTypes,ModuleInputOutputType[],inputTypes,ModuleInputOutputType,SINGLE_PDF,pdf,portable document format
+org.pdfsam.news.NewsData,java.time.LocalDate,parse,DateTimeFormatter,formatter,DateTimeFormatter,BASIC_ISO_DATE,iso,international standards organization
+org.pdfsam.support.RequireUtils,org.apache.commons.lang3.StringUtils,isNotBlank,CharSequence,cs,String,arg,arg,argument
+org.pdfsam.support.validation.FileTypeValidatorTest,org.pdfsam.support.validation.Validators,existingFileType,FileType,type,FileType,HTML,html,hypertext markup language
+org.pdfsam.context.DefaultUserContext,org.slf4j.Logger,error,Throwable,arg1,BackingStoreException,e,arg,argument
+org.pdfsam.ui.commons.ErrorTooltipManager,java.util.List<String>,add,String,e,String,ERROR_TOOLTIP_CLASS,e,error
+org.pdfsam.ui.workarea.QuickbarModuleButtonsProvider,java.util.Arrays,append,Module,m,Module,default,m,module
+org.pdfsam.ui.workarea.QuickbarModuleButtonsProviderTest,java.util.Arrays,asList,Module[],a,DefaultPriorityTestModule,defaultPrio,prio,priority
+org.pdfsam.ui.info.InfoStage,javafx.scene.layout.BorderPane,setCenter,Node,value,InfoPane,infoPane,info,information
+org.pdfsam.ui.banner.MenuButtonTest,javafx.scene.control.ContextMenu,show,double,dy,double,eq,dy,direction xaxis
+org.pdfsam.support.params.ConversionUtils,java.util.Set<PageRange>,add,PageRange,e,PageRange,range,e,page
+org.pdfsam.ui.io.BrowsablePdfOutputFieldTest,org.pdfsam.support.params.SingleOutputTaskParametersBuilder<>,output,FileTaskOutput,output,FileTaskOutput,argThat,arg,argument
+org.pdfsam.ui.banner.MenuButtonTest,javafx.scene.control.ContextMenu,show,double,dx,double,eq,dx,direction yaxis
+org.pdfsam.extract.ExtractOptionsPane,javafx.collections.ObservableList<String>,addAll,String[],elements,String[],css,css,cascading style sheets
+org.pdfsam.support.LocaleKeyValueItem,org.pdfsam.support.RequireUtils,requireNotNull,Object,arg,LocaleKeyValueItem,o,o,locale
+org.pdfsam.ui.selection.multiple.IntegerColumnTest,org.junit.Assert,assertEquals,long,actual,int,intValue,int,integer
+org.pdfsam.ui.WorkspaceController,java.util.concurrent.CompletableFuture,allOf,CompletableFuture<?>[],cfs,CompletableFuture[],toArray,cfs,completable futures
+org.pdfsam.ui.module.OpenButton,de.jensd.fx.glyphs.GlyphsDude,createIcon,GlyphIcons,icon,FontAwesomeIcon,FILE_PDF_ALT,alt,alternate
+org.pdfsam.ui.workarea.QuickbarModuleButtonsProviderTest,java.util.Arrays,asList,Module[],a,LowPriorityTestModule,lowPrio,prio,priority
+org.pdfsam.ui.log.LogLevelTest,org.pdfsam.ui.log.LogLevel,toLogLevel,int,intLevel,int,INFO_INT,info,information
+org.pdfsam.update.DefaultUpdateService,com.fasterxml.jackson.jr.ob.JSON,mapFrom,Object,arg0,Object,jsonSource,json,javascript object notation
+org.pdfsam.splitbybookmarks.SplitByOutlineLevelParametersBuilder,org.sejda.model.parameter.SplitByOutlineLevelParameters,setMatchingTitleRegEx,String,matchingTitleRegEx,String,regexp,regxp,regular expression
+org.pdfsam.pdf.PdfLoadRequestEventTest,org.pdfsam.pdf.PdfLoadRequestEvent,add,PdfDocumentDescriptor,e,PdfDocumentDescriptor,descriptor,dsr,descriptor
+org.pdfsam.ui.io.PdfDestinationPane,java.lang.Boolean,toString,boolean,b,boolean,isSelected,b,boolean
+org.pdfsam.ui.dashboard.preference.PreferencePane,java.util.List<Node>,add,Node,e,PreferenceWorkspacePane,workspace,e,node

@@ -1,0 +1,49 @@
+ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+org.besus.meice.oramtt.erd.model.Attribute,org.besus.meice.oramtt.erd.model.Model,setReleasePoint,Point,releasePoint,Point,definingLoc2,loc,location
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JLabel,lblRelationType,lbl,label
+org.besus.meice.oramtt.erd.model.Attribute,org.besus.meice.oramtt.erd.model.Attribute,getConnectionPoints,Point,p2,Point,centrePointOfAttribute,p,point
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeColDetails,col,column
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JComboBox,cmbRelationType,cmb,combobox
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeIndexDetails,tb,table
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JTextField,txtName,txt,text
+org.besus.meice.oramtt.erd.model.Attribute,java.awt.Graphics,drawString,String,str,String,getName,str,string
+org.besus.meice.oramtt.dao.TableDetails,org.besus.meice.oramtt.ui.ConstraintDailog,setForeignKeyRefDesc,String,foreignKeyRefDesc,String,key,ref,reference
+org.besus.meice.oramtt.erd.model.Attribute,org.besus.meice.oramtt.erd.model.Attribute,getConnectionPoints,Point,p1,Point,centrePointOfEntity,p,point
+org.besus.meice.oramtt.dao.TableCellListener,java.lang.Object,equals,Object,obj,Object,oldValue,obj,object
+org.besus.meice.oramtt.erd.model.Attribute,org.besus.meice.oramtt.erd.model.Model,setStartingPoint,Point,startingPoint,Point,definingLoc1,loc,location
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.AbstractButton,addActionListener,ActionListener,l,ActionListener,al,l,listener
+org.besus.meice.oramtt.dao.TableCellListener,java.awt.event.ActionListener,actionPerformed,ActionEvent,e,ActionEvent,event,e,event
+org.besus.meice.oramtt.erd.model.ERDiagram,org.besus.meice.oramtt.erd.model.Model,redraw,Point,definingLoc2,Point,getReleasePoint,loc,location
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JLabel,lblRelationName,lbl,label
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JComboBox,cmbDataType,cmb,combobox
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeInd,ind,index
+org.besus.meice.oramtt.dao.TableDetails,"java.util.Map<Integer,Object>",get,Object,key,int,col,col,column
+org.besus.meice.oramtt.dao.TableDetails,java.sql.Connection,prepareStatement,String,sql,String,TABLE_SELECTION_MYSQL,mysql,my structured query language
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeCol,tb,table
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JLabel,lblFromEntity,lbl,label
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JComboBox,cmbFromEntity,cmb,combobox
+org.besus.meice.oramtt.ui.EntityDialog,java.awt.Container,add,Component,comp,JLabel,lblEntityName,lbl,label
+org.besus.meice.oramtt.dao.TableDetails,java.sql.ResultSetMetaData,getColumnName,int,column,int,i,i,integer
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JLabel,lblAttributeType,lbl,label
+org.besus.meice.oramtt.dao.TableDetails,java.sql.Connection,prepareStatement,String,sql,String,command,sql,structured query language
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JLabel,lblEntity,lbl,label
+org.besus.meice.oramtt.ui.ButtonClickListeners,java.awt.Component,removeMouseListener,MouseListener,l,MouseListener,listener,l,listener
+org.besus.meice.oramtt.dao.TableDetails,java.sql.ResultSet,getObject,int,columnIndex,int,i,i,index
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JLabel,lblAttributeName,lbl,label
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JComboBox,cmbEntity,cmb,combobox
+org.besus.meice.oramtt.dao.TableDetails,java.util.List<String>,add,String,e,String,getColumnName,e,name
+org.besus.meice.oramtt.ui.ERDFrame,java.awt.Container,add,Component,comp,JToolBar,toolBar,comp,component
+org.besus.meice.oramtt.erd.model.Entity,java.util.List<Attribute>,add,Attribute,e,Attribute,attribute,e,attribute
+org.besus.meice.oramtt.erd.model.ERDiagram,org.besus.meice.oramtt.erd.model.Model,redraw,Point,definingLoc1,Point,getStartingPoint,loc,location
+org.besus.meice.oramtt.erd.model.ERDiagram,java.util.List<Model>,add,Model,e,Model,model,e,model
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeCol,col,column
+org.besus.meice.oramtt.erd.model.Entity,java.awt.Graphics,setColor,Color,c,Color,color,c,color
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.AbstractButton,addActionListener,ActionListener,l,ActionListener,al,al,action listener
+org.besus.meice.oramtt.dao.TableDetails,org.besus.meice.oramtt.ui.ConstraintDailog,setForeignKeyRefDesc,String,foreignKeyRefDesc,String,key,desc,description
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JLabel,lblToEntity,lbl,label
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeInd,tb,table
+org.besus.meice.oramtt.ui.RelationDialog,java.awt.Container,add,Component,comp,JComboBox,cmbToEntity,cmb,combobox
+org.besus.meice.oramtt.ui.DatabaseFrame,javax.swing.tree.DefaultMutableTreeNode,add,MutableTreeNode,newChild,DefaultMutableTreeNode,tbNodeColDetails,tb,table
+org.besus.meice.oramtt.util.ConnectionManager,java.sql.DriverManager,getConnection,String,user,String,uid,uid,user identifier
+org.besus.meice.oramtt.dao.TableDetails,java.sql.Connection,prepare,String,sql,String,TABLE_SELECTION_SQL,sql,structured query language
+org.besus.meice.oramtt.ui.AttributeDialog,java.awt.Container,add,Component,comp,JLabel,lblAttributeSize,lbl,label
