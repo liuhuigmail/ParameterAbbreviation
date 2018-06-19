@@ -1,0 +1,101 @@
+ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+retrofit2.adapter.rxjava.RxJavaCallAdapter,rx.Observable,create,OnSubscribe<>,f,OnSubscribe<>,func,f,function
+retrofit2.converter.jaxb.JaxbRequestConverter,okhttp3.RequestBody,create,MediaType,contentType,MediaType,XML,xml,extensible markup language
+retrofit2.adapter.rxjava.RecordingSubscriber,"org.assertj.core.api.AbstractAssert<,Boolean>",overridingErrorMessage,Object[],args,Notification<T>,notification,args,arguments
+retrofit2.converter.protobuf.Phone,"java.util.Map<FieldDescriptor,Object>",equals,Object,o1,"Map<FieldDescriptor,Object>",getExtensionFields,o,object
+retrofit2.Utils,java.lang.Object,equals,Object,obj,Type,b,b,object
+retrofit2.Java8,java.lang.invoke.MethodHandle,bindTo,Object,x,Object,object,x,example
+retrofit2.CallAdapterTest,retrofit2.Factory,getRawType,Type,type,Type,typeVar,var,variable
+retrofit2.converter.moshi.MoshiConverterFactory,java.util.Set<Annotation>,add,Annotation,e,Annotation,annotation,e,entry
+retrofit2.converter.gson.GsonConverterFactoryTest,org.assertj.core.api.Assertions,assertThat,String,actual,String,readUtf8,utf,unicode transformation format
+retrofit2.RequestBuilderTest,org.assertj.core.api.Assertions,assertThat,HttpUrl,actual,HttpUrl,url,url,uniform resource locator
+retrofit2.converter.gson.GsonRequestBodyConverter,com.google.gson.TypeAdapter<T>,write,JsonWriter,arg0,JsonWriter,jsonWriter,json,javaScript object notation
+retrofit2.mock.BehaviorDelegateTest,org.assertj.core.api.Assertions,assertThat,long,actual,long,tookMs,ms,millisecond
+retrofit2.converter.jaxb.JaxbRequestConverter,javax.xml.bind.Marshaller,marshal,XMLStreamWriter,arg1,XMLStreamWriter,xmlWriter,xml,extensible markup language
+retrofit2.adapter.rxjava.CallArbiter,rx.Observer<>,onError,Throwable,arg0,Throwable,t,t,throwable
+retrofit2.converter.wire.Phone,java.lang.StringBuilder,append,String,str,String,number,str,string
+retrofit2.adapter.rxjava.SingleTest,retrofit2.adapter.rxjava.RecordingSubscriber<String>,assertError,Throwable,throwable,RuntimeException,e,e,exception
+retrofit2.converter.jackson.JacksonResponseBodyConverter,com.fasterxml.jackson.databind.ObjectReader,readValue,Reader,src,Reader,charStream,src,source
+retrofit2.Builder,"retrofit2.Builder<T,R>",methodError,Object[],args,String,httpMethod,http,hyper text transfer protocol
+retrofit2.ParameterizedTypeImpl,java.util.Arrays,hashCode,Object[],a,Type[],typeArguments,a,argument
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sResponseWildcard,s,single
+retrofit2.converter.moshi.MoshiResponseBodyConverter,okio.BufferedSource,rangeEquals,ByteString,arg1,ByteString,UTF8_BOM,utf,unicode transformation format
+retrofit2.Builder,java.util.Set<String>,contains,Object,o,String,name,o,object
+retrofit2.converter.scalars.BooleanResponseBodyConverter,java.lang.Boolean,valueOf,String,s,String,string,s,string
+retrofit2.Builder,java.util.List<Factory>,add,Factory,e,Factory,checkNotNull,e,value
+retrofit2.RequestBuilderTest,retrofit2.RequestBuilderTest,buildRequest,Object[],args,"Map<String,Object>",params,params,parameters
+retrofit2.converter.wire.Phone,com.squareup.wire.internal.Internal,equals,Object,b,ByteString,unknownFields,b,object
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sBodyWildcard,s,single
+retrofit2.adapter.rxjava.CompletableWithSchedulerTest,rx.Completable,unsafeSubscribe,Subscriber<String>,s,RecordingSubscriber<String>,subscriber,s,subscriber
+retrofit2.RequestBuilder,okhttp3.HttpUrl,newBuilder,String,link,String,relativeUrl,url,uniform resource locator
+retrofit2.adapter.rxjava.CallExecuteOnSubscribe,rx.Subscriber<>,add,Subscription,s,CallArbiter<T>,arbiter,s,subscription
+retrofit2.ServiceMethod,java.util.regex.Pattern,compile,String,regex,String,PARAM,regex,regular expression
+retrofit2.Utils,java.util.Arrays,equals,Object[],a,Type[],getLowerBounds,a,array
+retrofit2.RequestBuilderTest,"retrofit2.ServiceMethod<T,Call<T>>",adapt,Call<T>,call,Call<T>,okHttpCall,http,hyper text transfer protocol
+retrofit2.RequestBuilder,retrofit2.RequestBuilder,canonicalizeForPath,int,pos,int,i,pos,position
+retrofit2.RequestBuilderTest,retrofit2.RequestBuilderTest,buildRequest,Object[],args,"Map<String,String>",queryParams,params,parameters
+retrofit2.converter.wire.WireConverterFactory,java.lang.Class<Message>,isAssignableFrom,Class<?>,cls,Class<>,c,c,class
+retrofit2.ServiceMethod,java.util.regex.Pattern,compile,String,regex,String,PARAM,param,parameter
+retrofit2.adapter.rxjava.RecordingSubscriber,rx.Notification,createOnNext,T,t,T,value,t,type
+retrofit2.adapter.rxjava.CallEnqueueOnSubscribe,rx.Subscriber<>,setProducer,Producer,p,CallArbiter<T>,arbiter,p,producer
+retrofit2.converter.simplexml.SimpleXmlRequestBodyConverter,org.simpleframework.xml.Serializer,write,Writer,arg1,OutputStreamWriter,osw,osw,output stream writer
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sBodyGeneric,s,single
+retrofit2.Utils,java.lang.Class<>,isInstance,Object,obj,Annotation,annotation,obj,object
+retrofit2.adapter.rxjava2.Rule,java.util.List<RecordingCompletableObserver>,add,RecordingCompletableObserver,sub,RecordingCompletableObserver,subscriber,sub,subscriber
+retrofit2.adapter.rxjava.ObservableWithSchedulerTest,rx.Observable<String>,unsafeSubscribe,Subscriber<? super String>,arg0,RecordingSubscriber<String>,subscriber,arg,argument
+retrofit2.Utils,java.util.Arrays,equals,Object[],a,Type[],getActualType,a,actual
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sBodyClass,s,single
+retrofit2.converter.jaxb.Contact,java.util.List<PhoneNumber>,equals,Object,o2,List<PhoneNumber>,phone_numbers,o,object
+retrofit2.mock.NetworkBehavior,java.util.concurrent.TimeUnit,convert,long,sourceDuration,long,delayMs,ms,millisecond
+retrofit2.adapter.guava.GuavaCallAdapterFactoryTest,org.assertj.core.api.Assertions,assert,Throwable,e,IllegalStateException,e,e,exception
+retrofit2.Utils,retrofit2.Utils,equals,Type,b,Type,getGenericComponentType,b,byte
+retrofit2.CallAdapterTest,retrofit2.Factory,getRawType,Type,type,Type,wildParam,param,parameter
+retrofit2.converter.wire.Phone,com.squareup.wire.internal.Internal,equals,Object,a,ByteString,unknownFields,a,arbitrary
+retrofit2.adapter.rxjava.Rule,retrofit2.adapter.rxjava.Rule,createWithInitialRequest,long,initialRequest,long,MAX_VALUE,max,maximum
+retrofit2.Java8,java.lang.invoke.Lookup,unreflectSpecial,Method,m,Method,method,m,method
+retrofit2.adapter.rxjava.CallArbiter,rx.plugins.RxJavaErrorHandler,handleError,Throwable,e,CompositeException,composite,e,error
+retrofit2.converter.moshi.MoshiConverterFactory,com.squareup.moshi.Moshi,adapter,Set<? extends Annotation>,arg1,Set<? extends Annotation>,jsonAnnotations,json,javaScript object notation
+retrofit2.mock.NetworkBehavior,java.util.concurrent.TimeUnit,convert,long,sourceDuration,long,callDelayMs,ms,millisecond
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sResultWildcard,s,single
+retrofit2.converter.jaxb.JaxbConverterFactoryTest,"org.assertj.core.api.AbstractAssert<,String>",isEqualTo,Object,expected,String,SAMPLE_CONTACT_XML,xml,extensible markup language
+retrofit2.mock.CallsTest,org.junit.Assert,assertEquals,long,actual,int,intValue,int,integer
+retrofit2.converter.protobuf.ProtoConverterFactoryTest,retrofit2.converter.protobuf.Service,post,Phone,impl,Phone,build,impl,implement
+retrofit2.Builder,java.util.List<Factory>,addAll,Collection<? extends Factory>,c,List<Factory>,callAdapterFactories,c,call
+retrofit2.adapter.rxjava.Rule,java.util.List<RecordingSubscriber<?>>,add,RecordingSubscriber<?>,e,RecordingSubscriber<T>,subscriber,e,subscriber
+retrofit2.RetrofitTest,retrofit2.MutableParameters,method,AtomicInteger,value,AtomicInteger,i,i,integer
+retrofit2.Retrofit,java.util.List<Factory>,get,int,index,int,i,i,index
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sResponseClass,s,single
+retrofit2.RelativeUrl,retrofit2.RequestBuilder,setRelativeUrl,Object,relativeUrl,Object,value,url,uniform resource locator
+retrofit2.ResponseTest,okhttp3.Builder,protocol,Protocol,protocol,Protocol,HTTP_1_1,http,hyper text transfer protocol
+retrofit2.adapter.rxjava.RxJavaCallAdapterFactoryTest,retrofit2.Factory,get,Type,returnType,Type,sResultClass,s,single
+retrofit2.Builder,java.util.List<Factory>,add,Factory,e,Factory,defaultCallAdapterFactory,e,default
+retrofit2.mock.NetworkBehaviorTest,org.assertj.core.api.Assertions,assertThat,Throwable,actual,Throwable,t,t,throwable
+retrofit2.converter.moshi.MoshiConverterFactoryTest,okio.Buffer,write,ByteString,byteString,ByteString,decodeHex,hex,hexadecimal
+retrofit2.converter.gson.GsonResponseBodyConverter,com.google.gson.TypeAdapter<T>,read,JsonReader,arg0,JsonReader,jsonReader,json,javaScript object notation
+retrofit2.Utils,java.util.Arrays,equals,Object[],a2,Type[],getLowerBounds,a,array
+retrofit2.adapter.rxjava.RxJavaCallAdapter,rx.Observable,create,OnSubscribe<>,f,OnSubscribe<>,func,func,function
+retrofit2.adapter.rxjava.CompletableThrowingSafeSubscriberTest,"org.assertj.core.api.AbstractAssert<,>",isSameAs,Object,expected,RuntimeException,exp,exp,expected
+retrofit2.RequestBuilderTest,retrofit2.RequestBuilderTest,buildRequest,Object[],args,Foo,foo,foo,foobar
+retrofit2.converter.jackson.JacksonConverterFactoryTest,com.fasterxml.jackson.databind.ObjectMapper,configure,MapperFeature,f,MapperFeature,AUTO_DETECT_GETTERS,f,feature
+retrofit2.adapter.rxjava.RecordingSubscriber,java.util.Deque<Notification<T>>,add,Notification<T>,e,Notification<T>,createOnNext,e,next
+retrofit2.converter.jaxb.JaxbResponseConverter,javax.xml.stream.XMLInputFactory,setProperty,String,name,String,SUPPORT_DTD,dtd,document type definition
+retrofit2.converter.protobuf.ProtoConverterFactory,java.lang.Class<MessageLite>,isAssignableFrom,Class<?>,cls,Class<>,c,cls,class
+retrofit2.RequestBuilder,java.lang.String,indexOf,int,ch,int,codePoint,ch,character
+retrofit2.RequestBuilderTest,retrofit2.TestingUtils,onlyMethod,Class,c,Class<T>,cls,c,class
+retrofit2.converter.moshi.MoshiResponseBodyConverter,okio.BufferedSource,rangeEquals,ByteString,arg1,ByteString,UTF8_BOM,bom,bill of material
+retrofit2.CallTest,org.assertj.core.api.Assertions,assertThat,Throwable,actual,Error,e,e,error
+retrofit2.Utils,java.lang.Object,equals,Object,obj,Object,ownerB,b,object
+retrofit2.Builder,retrofit2.Builder,baseUrl,HttpUrl,baseUrl,HttpUrl,httpUrl,http,hyper text transfer protocol
+retrofit2.adapter.rxjava.AsyncTest,rx.observers.TestSubscriber<Void>,awaitTerminalEvent,TimeUnit,arg1,TimeUnit,SECONDS,arg,argument
+retrofit2.converter.wire.Phone,com.squareup.wire.internal.Internal,equals,Object,b,String,number,b,number
+retrofit2.adapter.rxjava.CancelDisposeTest,retrofit2.Builder,addCallAdapterFactory,Factory,factory,RxJavaCallAdapterFactory,createAsync,async,asynchronous
+retrofit2.converter.moshi.MoshiConverterFactory,java.util.Collections,unmodifiableSet,Set<? extends Annotation>,s,Set<Annotation>,result,s,set
+retrofit2.Builder,java.util.List<Factory>,addAll,Collection<? extends Factory>,c,List<Factory>,converterFactories,c,converter
+retrofit2.Java8,java.lang.invoke.MethodHandle,invokeWithArguments,Object[],arguments,Object[],args,args,argumetns
+retrofit2.Builder,retrofit2.Utils,checkNotNull,String,object,String,baseUrl,url,uniform resource locator
+retrofit2.adapter.rxjava.AsyncTest,rx.observers.TestSubscriber<Void>,awaitValueCount,TimeUnit,arg2,TimeUnit,SECONDS,arg,argument
+retrofit2.Utils,java.util.Arrays,equals,Object[],a2,Type[],getActualType,a,actual
+retrofit2.adapter.rxjava.AsyncTest,java.util.List<Node>,add,Node,e,PreferenceWorkspacePane,workspace,e,node
+retrofit2.converter.gson.GsonResponseBodyConverter,retrofit2.adapter.rxjava.CallArbiter,inputTypes,ModuleInputOutputType[],inputTypes,ModuleInputOutputType,MULTIPLE_PDF,pdf,portable document format
+retrofit2.converter.moshi.MoshiResponseBodyConverter,java.util.Arrays,asList,Module[],a,LowPriorityTestModule,lowPrio,prio,priority
+retrofit2.Builder,java.util.List<MenuItem>,add,MenuItem,e,MenuItem,duplicateItem,e,item

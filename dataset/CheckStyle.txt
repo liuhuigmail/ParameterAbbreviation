@@ -1,0 +1,101 @@
+ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck,com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck,getDistToVariableUsageInChildNode,DetailAST,varIdent,DetailAST,variableIdentAst,var,variable
+com.puppycrawl.tools.checkstyle.api.AbstractCheck,java.util.Collections,addAll,String[],elements,String[],strRep,str,string
+com.puppycrawl.tools.checkstyle.gui.MainFrame,javax.swing.text.JTextComponent,setText,String,t,String,getText,t,text
+com.puppycrawl.tools.checkstyle.CheckerTest,com.puppycrawl.tools.checkstyle.Checker,addFilter,Filter,filter,DebugFilter,f2,f,filter
+com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck,java.math.BigInteger,add,BigInteger,val,BigInteger,expressionValue,val,value
+com.puppycrawl.tools.checkstyle.utils.CheckUtils,com.puppycrawl.tools.checkstyle.utils.CheckUtils,parseNumber,String,text,String,txt,txt,text
+com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheckTest,com.puppycrawl.tools.checkstyle.api.DetailAST,initialize,Token,tok,CommonHiddenStreamToken,tokenImportSemi,tok,token
+com.puppycrawl.tools.checkstyle.AbstractXmlTestSupport,"java.util.function.BiPredicate<Node,Node>",test,Node,t,Node,expectedChild,t,test
+com.puppycrawl.tools.checkstyle.Main,org.apache.commons.cli.CommandLine,hasOption,String,opt,String,OPTION_P_NAME,opt,option
+com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck,java.lang.System,arraycopy,Object,src,double[],list,src,source
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,org.junit.Assert,assertEquals,Object,expected,PkgImportControl,icCommon,ic,import control
+com.puppycrawl.tools.checkstyle.gui.ListToTreeSelectionModelWrapper,javax.swing.tree.DefaultTreeSelectionModel,addSelectionPath,TreePath,path,TreePath,selPath,sel,selection
+com.puppycrawl.tools.checkstyle.checks.indentation.IndentComment,java.lang.Integer,parseInt,String,s,String,group,s,string
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.api.FilterSet,addFilter,Filter,filter,SuppressElement,se2,se,suppress element
+com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTaskTest,java.lang.String,contains,CharSequence,s,String,path1,s,sequence
+com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask,org.apache.tools.ant.types.Path,setRefid,Reference,r,Reference,classpathRef,ref,reference
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoader,org.xml.sax.Attributes,getValue,String,qName,String,ATTRIBUTE_NAME_QUERY,q,query
+com.puppycrawl.tools.checkstyle.Checker,java.lang.Throwable,printStackTrace,PrintWriter,s,PrintWriter,pw,pw,print writer
+com.puppycrawl.tools.checkstyle.api.DetailASTTest,org.junit.Assert,assertEquals,String,message,String,badPrevMsg,prev,previous
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,org.junit.Assert,assertEquals,Object,expected,PkgImportControl,icCommonRegexpChild,ic,import control
+com.puppycrawl.tools.checkstyle.checks.javadoc.TagParser,com.puppycrawl.tools.checkstyle.checks.javadoc.TagParser,isCommentTag,Point,pos,Point,position,pos,position
+com.puppycrawl.tools.checkstyle.checks.imports.ImportControlCheck,com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl,locateFinest,String,forPkg,String,packageName,pkg,package
+com.puppycrawl.tools.checkstyle.grammars.GeneratedJavaRecognizer,antlr.ASTFactory,create,Token,arg0,Token,t,t,token
+com.puppycrawl.tools.checkstyle.TreeWalkerTest,java.io.Writer,write,String,str,String,content,str,string
+com.puppycrawl.tools.checkstyle.checks.annotation.AnnotationLocationCheck,com.puppycrawl.tools.checkstyle.checks.annotation.AnnotationLocationCheck,isCorrectLocation,boolean,hasParams,boolean,hasParameters,params,parameters
+com.puppycrawl.tools.checkstyle.PropertyCacheFileTest,java.lang.Class<PropertyCacheFile>,getDeclaredMethod,Class<?>[],parameterTypes,Class<?>[],param,param,parameter
+com.puppycrawl.tools.checkstyle.PackageNamesLoaderTest,java.lang.reflect.Field,get,Object,obj,PackageNamesLoader,loader,obj,object
+com.puppycrawl.tools.checkstyle.Checker,java.util.List<AuditListener>,remove,Object,o,AuditListener,listener,o,object
+com.puppycrawl.tools.checkstyle.CheckerTest,com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport,getCheckMessage,String,messageKey,String,EXCEPTION_MSG,msg,message
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.api.FilterSet,addFilter,Filter,filter,SuppressElement,se3,se,suppress element
+com.puppycrawl.tools.checkstyle.utils.TokenUtilsTest,org.junit.Assert,assertEquals,long,actual,int,getIntFromField,int,integer
+com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport,java.util.Collections,addAll,Collection<? super File>,c,List<File>,theFiles,c,collection
+com.puppycrawl.tools.checkstyle.gui.ParseTreeTableModel,javax.swing.event.EventListenerList,remove,TreeModelListener,l,TreeModelListener,listener,l,listener
+com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckTest,com.puppycrawl.tools.checkstyle.utils.CommonUtils,lengthExpandedTabs,int,toIdx,int,index,idx,index
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl,addChild,AbstractImportControl,importControl,PkgImportControl,icCommon,ic,import control
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.api.FilterSet,addFilter,Filter,filter,SuppressElement,se4,se,suppress element
+com.puppycrawl.tools.checkstyle.CheckerTest,java.util.List<String>,get,int,index,int,i,i,index
+com.puppycrawl.tools.checkstyle.checks.indentation.TryHandler,com.puppycrawl.tools.checkstyle.checks.indentation.AbstractExpressionHandler,logError,IndentLevel,expectedIndent,IndentLevel,expectedIdent,ident,indent
+com.puppycrawl.tools.checkstyle.XMLLoggerTest,com.puppycrawl.tools.checkstyle.XMLLogger,addError,AuditEvent,event,AuditEvent,ev,ev,event
+com.puppycrawl.tools.checkstyle.checks.SuppressWarningsHolderTest,java.util.List<Object>,add,Object,e,Object,entryInstance,e,entry
+com.puppycrawl.tools.checkstyle.PropertyCacheFileTest,com.google.common.io.Flushables,flush,boolean,swallowIOException,boolean,eq,eq,equal
+com.puppycrawl.tools.checkstyle.checks.javadoc.TagParser,com.puppycrawl.tools.checkstyle.checks.javadoc.TagParser,getNextCharPos,Point,from,Point,curr,curr,current
+com.puppycrawl.tools.checkstyle.DefaultLoggerTest,org.junit.Assert,assertNotNull,Object,object,DefaultLogger,dl,dl,default logger
+com.puppycrawl.tools.checkstyle.internal.utils.XdocUtil,java.nio.file.Files,newDirectoryStream,Path,dir,Path,directory,dir,directory
+com.puppycrawl.tools.checkstyle.grammars.javadoc.JavadocParser,org.antlr.v4.runtime.atn.ParserATNSimulator,adaptivePredict,ParserRuleContext,outerContext,ParserRuleContext,_ctx,ctx,context
+com.puppycrawl.tools.checkstyle.PropertyCacheFileTest,java.lang.reflect.Method,invoke,Object[],args,Configuration,config,config,configuration
+com.puppycrawl.tools.checkstyle.gui.MainFrame,java.awt.Container,add,Component,comp,JSplitPane,splitPane,comp,component
+com.puppycrawl.tools.checkstyle.gui.MainFrameModelTest,java.lang.String,contains,CharSequence,s,String,testDataFileNameWithoutPostfix,s,sequence
+com.puppycrawl.tools.checkstyle.checks.coding.IllegalTypeCheck,com.puppycrawl.tools.checkstyle.api.AbstractCheck,log,int,colNo,int,getColumnNo,col,column
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl,addChild,AbstractImportControl,importControl,PkgImportControl,icCommonRegexpChild,ic,import control
+com.puppycrawl.tools.checkstyle.filters.SeverityMatchFilterTest,com.puppycrawl.tools.checkstyle.filters.SeverityMatchFilter,accept,AuditEvent,event,AuditEvent,ev3,ev,event
+com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck,com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck,getValidTags,TextBlock,cmt,TextBlock,textBlock,cmt,comment
+com.puppycrawl.tools.checkstyle.Main,com.puppycrawl.tools.checkstyle.Main,validateCli,CommandLine,cmdLine,CommandLine,commandLine,cmd,command
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.api.FilterSet,addFilter,Filter,filter,SuppressElement,se1,se,suppress element
+com.puppycrawl.tools.checkstyle.checks.coding.RequireThisCheckTest,com.puppycrawl.tools.checkstyle.internal.utils.TestUtil,getClassDeclaredMethod,Class<?>,clss,Class<>,cls,cls,class
+com.puppycrawl.tools.checkstyle.XMLLogger,java.lang.Character,isISOControl,char,ch,char,chr,chr,char
+com.puppycrawl.tools.checkstyle.checks.TranslationCheck,java.util.Set<String>,addAll,Collection<? extends String>,c,Set<String>,keysInCurrentFile,c,collection
+com.puppycrawl.tools.checkstyle.gui.TreeTableCellRenderer,javax.swing.JComponent,setBackground,Color,bg,Color,getSelectionBackground,bg,background
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl,addChild,AbstractImportControl,importControl,PkgImportControl,icBootRegexpParen,ic,import control
+com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck,com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck,addRulesToList,String,ruleStr,String,currentState,str,string
+com.puppycrawl.tools.checkstyle.ConfigurationLoaderTest,com.puppycrawl.tools.checkstyle.ConfigurationLoaderTest,verifyConfigNode,Properties,atts,Properties,attributes,atts,attributes
+com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck,java.util.Set<String>,contains,Object,o,String,abbr,abbr,abbreviation
+com.puppycrawl.tools.checkstyle.PackageObjectFactoryTest,java.lang.reflect.Method,invoke,Object[],args,String,className,args,arugments
+com.puppycrawl.tools.checkstyle.JavadocDetailNodeParserTest,com.puppycrawl.tools.checkstyle.DetailNodeTreeStringPrinter,printTree,DetailNode,ast,DetailNode,getTree,ast,abstract syntax tree
+com.puppycrawl.tools.checkstyle.Main,com.puppycrawl.tools.checkstyle.Main,verifyThreadsNumberParameter,String,cliParameterName,String,OPTION_CAPITAL_C_NAME,cli,client
+com.puppycrawl.tools.checkstyle.internal.AllTestsTest,java.lang.String,startsWith,String,prefix,String,clss,clss,class
+com.puppycrawl.tools.checkstyle.filters.SuppressElement,java.util.Objects,equals,Object,a,String,linesCsv,csv,comma separated values
+com.puppycrawl.tools.checkstyle.filters.IntRangeFilter,java.lang.Integer,compareTo,Integer,anotherInteger,int,intValue,int,integer
+com.puppycrawl.tools.checkstyle.XmlLoader,"java.util.Map<String,String>",put,String,value,String,dtdResourceName,dtd,document type definition
+com.puppycrawl.tools.checkstyle.Main,java.lang.Integer,parseInt,String,s,String,checkerThreadsNumberStr,str,string
+com.puppycrawl.tools.checkstyle.grammars.GeneratedJavaTokenTypesTest,org.junit.Assert,assertEquals,long,actual,int,GT,gt,greater than
+com.puppycrawl.tools.checkstyle.grammars.GeneratedJavaTokenTypesTest,org.junit.Assert,assertEquals,long,actual,int,HEX_DIGIT,hex,hexadecimal
+com.puppycrawl.tools.checkstyle.api.JavadocTokenTypesTest,org.junit.Assert,assertEquals,long,actual,int,HTML_TAG_NAME,html,hyper text transfer protocol
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,org.junit.Assert,assertEquals,Object,expected,PkgImportControl,icRoot,ic,import control
+com.puppycrawl.tools.checkstyle.utils.CommonUtilsTest,com.puppycrawl.tools.checkstyle.utils.CommonUtils,lengthExpandedTabs,int,toIdx,int,length,idx,index
+com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck,java.util.regex.Pattern,matcher,CharSequence,input,String,imprt,imprt,import
+com.puppycrawl.tools.checkstyle.PropertyCacheFileTest,com.google.common.io.Closeables,close,boolean,swallowIOException,boolean,eq,io,input output
+com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck,com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck,hasLineBreakBefore,DetailAST,rightCurly,DetailAST,rcurly,rcurly,right curly
+com.puppycrawl.tools.checkstyle.AbstractPathTestSupport,java.lang.String,replaceAll,String,replacement,String,LF_REGEX,regex,regular expression
+com.puppycrawl.tools.checkstyle.PackageNamesLoaderTest,org.mockito.stubbing.OngoingStubbing<URL>,thenReturn,URL,value,URL,url,url,uniform resource locator
+com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck,java.lang.StringBuilder,append,String,str,String,substring,str,string
+com.puppycrawl.tools.checkstyle.internal.XdocsPagesTest,java.lang.String,contains,CharSequence,s,String,search,s,search
+com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck,com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck,hasProperAccessModifier,String,variableName,String,varName,var,variable
+com.puppycrawl.tools.checkstyle.checks.annotation.SuppressWarningsCheckTest,com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport,getCheckMessage,String,messageKey,String,MSG_KEY_SUPPRESSED_WARNING_NOT_ALLOWED,msg,message
+com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck,com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck,isSingleTag,HtmlTag,tag,HtmlTag,htmlTag,html,hyper text transfer protocol
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,org.junit.Assert,assertEquals,Object,expected,PkgImportControl,icRootRegexpChild,ic,import control
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.filters.SuppressionsLoader,loadSuppressions,String,filename,String,fn,fn,file name
+com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckTest,java.nio.file.Files,newBufferedReader,Charset,cs,Charset,UTF_8,cs,char set
+com.puppycrawl.tools.checkstyle.checks.javadoc.AbstractJavadocCheckTest,com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport,verify,Configuration,aConfig,DefaultConfiguration,checkconfig,config,configuration
+com.puppycrawl.tools.checkstyle.internal.XdocsPagesTest,com.puppycrawl.tools.checkstyle.internal.XdocsPagesTest,getField,Class<?>,clss,Class<? super >,getSuperclass,clss,class
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControl,addChild,AbstractImportControl,importControl,PkgImportControl,icCommonRegexpChild,regexp,regular expression
+com.puppycrawl.tools.checkstyle.Main,com.puppycrawl.tools.checkstyle.Main,runCheckstyle,CliOptions,cliOptions,CliOptions,config,cli,client
+com.puppycrawl.tools.checkstyle.grammars.GeneratedJava14LexerTest,org.junit.Assume,assumeFalse,boolean,b,boolean,IS_WINDOWS,b,boolean
+com.puppycrawl.tools.checkstyle.DefaultLogger,org.junit.Assert,assert,Object,obj,DefaultLogger,_dl,dl,default logger
+com.puppycrawl.tools.checkstyle.checks.imports.PkgImportControlTest,org.junit.Assert,assertEquals,Object,expected,PkgImportControl,icRootRegexpParent,ic,import control
+com.puppycrawl.tools.checkstyle.XMLLoggerTest,com.puppycrawl.tools.checkstyle.XMLLogger,fileStarted,AuditEvent,event,AuditEvent,ev,ev,event
+com.puppycrawl.tools.checkstyle.gui.MainFrameModel,java.lang.StringBuilder,append,String,str,String,lineSeparator,str,separator
+com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTaskTest,org.apache.tools.ant.types.Path,addFileset,FileSet,fs,FileSet,examinationFileSet,fs,file set
+com.puppycrawl.tools.checkstyle.filters.SuppressionsLoaderTest,com.puppycrawl.tools.checkstyle.api.FilterSet,addFilter,Filter,filter,SuppressElement,se0,se,suppress element
+com.puppycrawl.tools.checkstyle.Checker,com.puppycrawl.tools.checkstyle.Checker,addFileSetCheck,FileSetCheck,fileSetCheck,FileSetCheck,fsc,fsc,file ser check
