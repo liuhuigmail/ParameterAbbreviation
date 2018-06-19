@@ -1,0 +1,101 @@
+﻿ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+net.sf.portecle.gui.about.DSystemProperties,javax.swing.table.TableColumn,setPreferredWidth,int,preferredWidth,int,w,w,width
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,String,str,String,sVal,val,value
+net.sf.portecle.DImportKeyPair,javax.swing.JList<String>,setListData,Vector<? extends String>,listData,Vector<String>,vKeyPairAliases,v,vector
+net.sf.portecle.FPortecle,java.net.URI,create,String,s,String,getString,s,string
+net.sf.portecle.FPortecle,javax.swing.JFileChooser,setCurrentDirectory,File,dir,File,fLastDir,f,file
+net.sf.portecle.FPortecle,net.sf.portecle.gui.SwingHelper,showAndWait,Window,window,DJarInfo,dJarInfo,info,information
+net.sf.portecle.FileChooserFactory,java.util.ArrayList<String>,addAll,Collection<? extends String>,c,Set<String>,getFilenameExtensions,c,collection
+net.sf.portecle.crypto.X509CertUtil,java.lang.System,arraycopy,Object,dest,X509Certificate[],tmpCerts,tmp,temporary
+net.sf.portecle.crypto.X509Ext,net.sf.portecle.crypto.X509Ext,escapeHtml,Object,source,String,sTM,tm,time
+net.sf.portecle.FPortecle,javax.swing.JMenu,add,JMenuItem,menuItem,JMenuItem,m_jmiSaveKeyStoreAs,m,menu
+net.sf.portecle.FPortecle,java.util.logging.Logger,log,Throwable,thrown,Throwable,thw,thw,throwable
+net.sf.portecle.DViewCertificate,javax.swing.AbstractButton,setMnemonic,int,mnemonic,int,VK_RIGHT,vk,virtual key
+net.sf.portecle.DGetHostPort,javax.swing.text.JTextComponent,setText,String,t,String,valueOf,t,text
+net.sf.portecle.FileChooserFactory,java.lang.StringBuilder,append,String,str,String,FILELIST_SEPARATOR,str,string
+net.sf.portecle.crypto.X509Ext,org.bouncycastle.asn1.ASN1Primitive,equals,Object,arg0,ASN1ObjectIdentifier,netscapeBaseURL,url,uniform resource locator
+net.sf.portecle.gui.error.DThrowableDetail,java.lang.StringBuilder,append,Object,obj,StackTraceElement,ste,ste,stack trace element
+net.sf.portecle.DGenerateCertificate,javax.swing.JComboBox<SignatureType>,addItem,SignatureType,item,SignatureType,st,st,signature type
+net.sf.portecle.crypto.X509CertUtil,java.lang.System,arraycopy,Object,src,X509Certificate[],orderedCerts,src,source
+net.sf.portecle.crypto.X509Ext,net.sf.portecle.crypto.X509Ext,getNovellQualityAttr,ASN1Sequence,seq,ASN1Sequence,keyq,seq,sequence
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,CharSequence,s,StringBuilder,sbClr,sb,string builder
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,CharSequence,s,StringBuilder,sbHex,s,sequence
+net.sf.portecle.FPortecle,javax.net.ssl.SSLContext,init,SecureRandom,arg2,SecureRandom,m_rnd,rnd,random
+net.sf.portecle.FPortecle,org.bouncycastle.openssl.jcajce.JcePEMEncryptorBuilder,setSecureRandom,SecureRandom,arg0,SecureRandom,rand,rand,random
+net.sf.portecle.FPortecle,net.sf.portecle.crypto.KeyStoreUtil,loadEntries,PasswordFinder,pwFinder,PasswordFinder,passwordFinder,pw,password
+net.sf.portecle.DImportKeyPair,net.sf.portecle.crypto.KeyPairUtil,getKeyLength,PublicKey,pubKey,PublicKey,getPublicKey,pub,public
+net.sf.portecle.FPortecle,java.security.Security,addProvider,Provider,provider,Provider,bcProv,prov,provider
+net.sf.portecle.FPortecle,net.sf.portecle.crypto.X509CertUtil,generatePKCS10CSR,PrivateKey,privateKey,PrivateKey,privKey,priv,private
+net.sf.portecle.crypto.X509Ext,org.bouncycastle.asn1.ASN1Primitive,equals,Object,arg0,ASN1ObjectIdentifier,microsoftPrevCaCertHash,prev,previous
+net.sf.portecle.crypto.KeyStoreUtil,java.security.KeyStore,setEntry,ProtectionParameter,protParam,PasswordProtection,prot,param,patameter
+net.sf.portecle.FPortecle,java.lang.Object,equals,Object,obj,PublicKey,getPublicKey,obj,object
+net.sf.portecle.gui.crypto.DProviderInfo,java.lang.String,valueOf,Object,obj,Object,o,o,object
+net.sf.portecle.DChoosePkcs11Provider,javax.swing.JOptionPane,showMessageDialog,Object,message,String,msg,msg,message
+net.sf.portecle.FPortecle,javax.swing.JMenuBar,add,JMenu,c,JMenuRecentFiles,m_jmrfFile,m,menu
+net.sf.portecle.NetUtil,java.io.OutputStream,write,int,len,int,n,len,length
+net.sf.portecle.PortecleJDialog,javax.swing.AbstractButton,addActionListener,ActionListener,l,Action,okAction,l,listener
+net.sf.portecle.crypto.X509Ext,net.sf.portecle.crypto.X509Ext,convertToHexString,Object,obj,ASN1Integer,derInt,int,integer
+net.sf.portecle.DViewCSR,org.bouncycastle.crypto.util.PublicKeyFactory,createKey,SubjectPublicKeyInfo,arg0,SubjectPublicKeyInfo,keyInfo,info,information
+net.sf.portecle.DViewCRL,javax.swing.table.TableColumnModel,getColumn,int,columnIndex,int,iCnt,i,index
+net.sf.portecle.crypto.X509Ext,java.util.Arrays,copyOfRange,int,to,int,iLen,i,integer
+net.sf.portecle.DViewCSR,java.awt.Container,add,Object,constraints,GridBagConstraints,gbc_jlVersion,gbc,grid bag constraints
+net.sf.portecle.crypto.KeyStoreUtil,java.security.KeyStore,store,OutputStream,stream,FileOutputStream,fos,fos,file output stream
+net.sf.portecle.DKeyStoreReport,java.util.ResourceBundle,getString,String,key,String,fmtKey,fmt,format
+net.sf.portecle.crypto.KeyStoreUtil,java.security.KeyStore,load,InputStream,stream,FileInputStream,fis,fis,file input stream
+net.sf.portecle.DViewCertificate,javax.swing.JComponent,setForeground,Color,fg,Color,getForeground,fg,foreground
+net.sf.portecle.FPortecle,net.sf.portecle.gui.SwingHelper,showAndWait,Window,window,FHelp,m_fHelp,f,file
+net.sf.portecle.FPortecle,net.sf.portecle.crypto.X509CertUtil,loadCertificates,Collection<Exception>,exceptions,ArrayList<Exception>,exs,exs,exceptions
+net.sf.portecle.crypto.X509Ext,java.util.logging.Logger,log,Throwable,thrown,IOException,e,e,exception
+net.sf.portecle.gui.SingleFileDropHelper,javax.swing.TransferSupport,isDataFlavorSupported,DataFlavor,df,DataFlavor,URILIST_FLAVOR,df,data flavor
+net.sf.portecle.FPortecle,java.util.prefs.Preferences,get,String,def,String,DEFAULT_LOOK_FEEL,def,default
+net.sf.portecle.DKeyStoreReport,java.text.DateFormat,format,Date,date,Date,dCreation,d,date
+net.sf.portecle.FPortecle,java.awt.Container,add,Component,comp,JButton,jbNewKeyStore,comp,component
+net.sf.portecle.KeyStoreTableModel,net.sf.portecle.KeyStoreTableModel,isCellEditable,int,iCol,int,columnIndex,col,column
+net.sf.portecle.FPortecle,javax.swing.table.TableColumnModel,getColumn,int,columnIndex,int,iCnt,cnt,count
+net.sf.portecle.crypto.X509Ext,java.lang.Character,isISOControl,char,ch,char,c,ch,char
+net.sf.portecle.FPortecle,java.security.KeyStore,setKeyEntry,char[],password,char[],cPassword,c,char
+net.sf.portecle.NetUtil,java.io.InputStream,read,byte[],b,byte[],buf,buf,buffer
+net.sf.portecle.gui.jar.DJarInfo,javax.swing.JComponent,setBackground,Color,bg,Color,getBackground,bg,background
+net.sf.portecle.crypto.X509CertUtil,java.security.cert.CertificateFactory,generateCertificate,InputStream,inStream,ByteArrayInputStream,bais,bais,byte array input stream
+net.sf.portecle.crypto.X509Ext,org.bouncycastle.asn1.ASN1Primitive,fromByteArray,byte[],arg0,byte[],bValue,b,byte
+net.sf.portecle.KeyStoreTableModel,java.security.KeyStore,isCertificateEntry,String,alias,String,sAlias,s,string
+net.sf.portecle.crypto.X509CertUtil,org.bouncycastle.cert.jcajce.JcaX509v3CertificateBuilder,copyAndAddExtension,X509Certificate,arg2,X509Certificate,oldCert,arg,argument
+net.sf.portecle.DKeyStoreReport,java.awt.Container,add,Component,comp,JButton,jbCopyXml,xml,extensible markup langage
+net.sf.portecle.HelpAction,javax.swing.KeyStroke,getKeyStroke,int,keyCode,int,VK_F1,vk,virtual key
+net.sf.portecle.FPortecle,javax.swing.JMenu,add,JMenuItem,menuItem,JMenuItem,m_jmiChangeKeyStoreTypeBksV1,v,version
+net.sf.portecle.FPortecle,net.sf.portecle.DViewCertificate,showAndWait,Object,url,File,fCertFile,url,uniform resource locator
+net.sf.portecle.DKeyStoreReport,javax.xml.transform.Transformer,setOutputProperties,Properties,oformat,Properties,TF_PROPS,tf,transformer factory
+net.sf.portecle.FPortecle,javax.swing.JMenu,add,JMenuItem,menuItem,JMenuItem,jmiExamineCertSSL,ssl,security socket layer
+net.sf.portecle.DGenerateCertificate,java.awt.Container,add,Object,constraints,GridBagConstraints,gbc_jlSigAlg,sig,signature
+net.sf.portecle.DKeyStoreReport,net.sf.portecle.crypto.DigestUtil,getMessageDigest,DigestType,digestType,DigestType,SHA1,sha,secure hash algorithm
+net.sf.portecle.crypto.X509Ext,java.text.MessageFormat,format,String,pattern,String,sc,sc,ssl context
+net.sf.portecle.DGenerateKeyPair,javax.swing.ButtonGroup,add,AbstractButton,b,JRadioButton,jrbRSA,rsa,rivest shamir adleman
+net.sf.portecle.crypto.X509Ext,net.sf.portecle.crypto.X509Ext,escapeHtml,Object,source,String,sRfc822,rfc,regular file check
+net.sf.portecle.crypto.X509Ext,java.text.MessageFormat,format,Object[],arguments,int,iRc,rc,regular check
+net.sf.portecle.FPortecle,java.util.ResourceBundle,getBundle,String,baseName,String,RB_BASENAME,rb,resource base
+net.sf.portecle.crypto.X509Ext,java.lang.Object,equals,Object,obj,PolicyQualifierId,id_qt_unotice,qt,qualifier
+net.sf.portecle.FPortecle,java.security.KeyStore,setKeyEntry,Key,key,Key,privKey,priv,private
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,String,str,String,sParams,params,parameters
+net.sf.portecle.crypto.ProviderUtil,"java.util.TreeMap<String,Provider>",put,String,key,String,pName,p,parameter
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,String,str,String,sParams,s,string
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,boolean,b,boolean,bNSI,nsi,national security information
+net.sf.portecle.DKeyStoreReport,net.sf.portecle.crypto.DigestUtil,getMessageDigest,DigestType,digestType,DigestType,MD5,md,message digest
+net.sf.portecle.FPortecle,javax.swing.AbstractButton,setAction,Action,a,KeyStoreReportAction,m_keyStoreReportAction,m,message
+net.sf.portecle.crypto.X509Ext,net.sf.portecle.crypto.X509Ext,stringify,Object,obj,DERTaggedObject,ltInfo,lt,issuer logo
+net.sf.portecle.crypto.X509Ext,java.text.MessageFormat,format,String,pattern,String,ksq,ksq,key storage quality
+net.sf.portecle.gui.about.DSystemInformation,javax.swing.JLabel,setLabelFor,Component,c,JTextField,jtfJvmMaximumMemory,jvm,java virtual machine
+net.sf.portecle.gui.about.DSystemInformation,javax.swing.JLabel,setLabelFor,Component,c,JTextField,jtfJvmMaximumMemory,jtf,java text field
+net.sf.portecle.DViewExtensions,java.awt.Container,add,Component,comp,JScrollPane,jspExtensionValue,jsp,java scroll pane
+net.sf.portecle.DNewKeyStoreType,javax.swing.ButtonGroup,add,AbstractButton,b,JRadioButton,m_jrbJksKeyStore,jrb,java radio button
+net.sf.portecle.DOptions,java.awt.Container,add,Component,comp,JPanel,jpDecorationNote,jp,java panel
+net.sf.portecle.FPortecle,javax.swing.JMenu,add,JMenuItem,menuItem,JMenuItem,jmiWebsite,jmi,java menu item
+net.sf.portecle.DGenerateKeyPair,javax.swing.JLabel,setLabelFor,Component,c,JComboBox<String>,m_jcbKeySize,jcb,java combobox
+net.sf.portecle.FPortecle,java.awt.Container,add,Component,comp,JButton,jbSetKeyStorePass,jb,java button
+net.sf.portecle.FPortecle,net.sf.portecle.FPortecle,openKeyStorePkcs11,String,sPkcs11Provider,String,provider,s,string
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,String,str,String,escapeHtml,html,hypertext markup language
+net.sf.portecle.crypto.X509Ext,java.lang.StringBuilder,append,String,str,String,convertToHexString,hex,hexadecimal
+net.sf.portecle.DViewCRL,javax.swing.JComponent,setForeground,Color,fg,Color,red,fg,foreground
+net.sf.portecle.gui.help.FHelp,java.awt.Toolkit,createImage,URL,url,URL,getResource,url,uniform resource locator
+net.sf.portecle.gui.DesktopUtil,java.text.MessageFormat,format,Object[],arguments,URI,uri,uri,uniform resource identifier
+net.sf.portecle.DGetHostPort,net.sf.portecle.gui.error.DThrowable,showAndWait,Throwable,throwable,Exception,e,e,exception
+net.sf.portecle.DChoosePkcs11Provider,javax.swing.JLabel,setLabelFor,Component,c,JComboBox<String>,m_jcbProvider,c,component

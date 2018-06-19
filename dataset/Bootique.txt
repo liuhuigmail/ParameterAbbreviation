@@ -1,0 +1,101 @@
+ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+io.bootique.jackson.YearMonthDeserializerIT,org.junit.Assert,assertEquals,Object,actual,YearMonth,ym,ym,year month
+io.bootique.BQCoreModule,io.bootique.env.Builder,diVariables,"Map<String,String>",diVariables,"Map<String,String>",diVars,vars,variables
+io.bootique.config.jackson.InPlaceMapOverriderTest,org.junit.Assert,assertEquals,long,actual,int,asInt,int,integer
+io.bootique.run.DefaultRunnerTest,org.mockito.stubbing.OngoingStubbing<CommandMetadata>,thenReturn,CommandMetadata,arg0,CommandMetadata,md,md,metadata
+io.bootique.config.jackson.IndexPathSegment,java.lang.String,charAt,int,index,int,i,i,index
+io.bootique.value.PercentTest,io.bootique.value.Percent,equals,Object,obj,Percent,p3,p,percent
+io.bootique.value.Percent,java.lang.Double,compare,double,d1,double,percent,d,double
+io.bootique.jackson.DateDeserializerIT,java.util.Calendar,setTimeInMillis,long,millis,long,getTime,millis,millisecond
+io.bootique.jackson.PeriodDeserializerIT,org.junit.Assert,assertEquals,Object,actual,Period,p,p,period
+io.bootique.config.jackson.JsonNodeConfigurationBuilder,"java.util.function.Function<JsonNode,JsonNode>",apply,JsonNode,t,JsonNode,rootNode,t,root
+io.bootique.names.ClassToName,java.lang.StringBuilder,append,String,sep,String,partsSeparator,sep,separator
+io.bootique.config.jackson.InPlaceLeftHandMerger,io.bootique.config.jackson.InPlaceLeftHandMerger,apply,JsonNode,source,JsonNode,srcChild,src,source
+io.bootique.Bootique_Configuration_VarsIT,org.junit.Assert,assertNotNull,Object,object,"Map<String,String>",m,m,map
+io.bootique.config.jackson.JsonNodeConfigurationFactoryTest,org.junit.Assert,assertNotNull,Object,object,List<Object>,l,l,list
+io.bootique.jackson.deserializer.DecimalUtils,java.lang.StringBuilder,append,CharSequence,s,StringBuilder,nanoSB,sb,string builder
+io.bootique.BootiqueIT,org.junit.Assert,assertEquals,Object,actual,String,s2,s,string
+io.bootique.jackson.deserializer.DecimalUtils,java.lang.StringBuilder,append,CharSequence,s,StringBuilder,nanoSB,s,sequence
+io.bootique.help.DefaultHelpGeneratorTest,java.lang.StringBuilder,append,String,str,String,NEWLINE,str,string
+io.bootique.config.jackson.JsonNodeConfigurationFactoryTest,org.junit.Assert,assertNotNull,Object,object,ResourceFactoryHolder,rfh,rfh,resource factory holder
+io.bootique.terminal.ExternalCommandTerminal,"java.util.function.Function<BufferedReader,T>",apply,BufferedReader,t,BufferedReader,r,r,reader
+io.bootique.value.PercentTest,io.bootique.value.Percent,equals,Object,obj,Percent,p2,p,percent
+io.bootique.Bootique,io.bootique.Bootique,processExceptions,Throwable,parentTh,ProvisionException,pe,pe,provision exception
+io.bootique.run.DefaultRunner,java.util.Optional<Command>,orElse,Command,other,Command,orElse,or,other
+io.bootique.value.DurationTest,io.bootique.value.Duration,equals,Object,obj,Duration,d3,obj,object
+io.bootique.BootiqueUtilsTest,java.util.Collections,singletonList,BQModuleProvider,o,BQModuleProvider,testModuleProvider1,o,module
+io.bootique.test.junit.BQModuleProviderChecker,java.util.function.Consumer<BQTestFactory>,accept,BQTestFactory,t,BQTestFactory,testFactory,t,test
+io.bootique.RuntimeModuleMergerTest,java.util.Collection<Module>,contains,Object,o,Module,get,o,object
+io.bootique.jackson.deserializer.DurationDeserializer,java.time.Duration,ofSeconds,long,nanoAdjustment,int,nanoseconds,nano,nanoseconds
+io.bootique.jackson.MonthDayDeserializerIT,org.junit.Assert,assertEquals,Object,actual,MonthDay,md,md,month day
+io.bootique.command.CommandManagerWithOverridesBuilder,io.bootique.command.CommandManagerBuilder<CommandManagerWithOverridesBuilder>,addCommandNoOverride,ManagedCommand,managedCommand,ManagedCommand,mc,mc,managed command
+io.bootique.BootiqueStaticsTest,com.google.inject.Guice,createInjector,Module[],modules,Module,m,m,module
+io.bootique.test.junit.BQModuleProviderCheckerTest,org.junit.Assert,assertNotNull,Object,object,BQModuleProvider,p,p,provider
+io.bootique.jackson.deserializer.DecimalUtils,java.lang.StringBuilder,append,long,lng,long,seconds,lng,long
+io.bootique.command.MultiCommand,java.util.function.Consumer<CommandOutcome>,accept,CommandOutcome,t,CommandOutcome,outcome,t,outcome
+io.bootique.value.DurationTest,io.bootique.value.Duration,compareTo,Duration,o,Duration,d2,d,duration
+io.bootique.value.PercentTest,io.bootique.value.Percent,equals,Object,obj,Percent,p4,p,percent
+io.bootique.env.Builder,"java.util.Map<String,String>",putAll,"Map<? extends String,? extends String>",m,"Map<String,String>",diProperties,di,discovery
+io.bootique.jackson.deserializer.YearDeserializer,java.time.Year,of,int,isoYear,int,getValueAsInt,int,integer
+io.bootique.config.jackson.JsonNodeConfigurationFactoryTest,org.junit.Assert,assertEquals,Object,actual,String,getS,s,string
+io.bootique.test.junit.BQDaemonTestFactoryIT,org.junit.Assert,assertNotSame,Object,actual,BQRuntime,r2,r,runtime
+io.bootique.test.junit.PolymorphicConfigurationChecker,org.junit.Assert,assertNotNull,Object,object,JsonTypeInfo,typeInfo,info,information
+io.bootique.test.junit.PolymorphicConfigurationChecker,org.junit.Assert,assertEquals,Object,actual,Class<?>,defaultImpl,impl,implement
+io.bootique.command.CommandOutcome,java.lang.StringBuilder,append,int,i,int,exitCode,i,integer
+io.bootique.meta.config.ConfigMetadataCompiler,"java.util.function.Function<Class<?>,Stream<Class<?>>>",apply,Class<?>,t,Class<?>,getTypeClass,t,type
+io.bootique.jackson.deserializer.OffsetTimeDeserializer,com.fasterxml.jackson.databind.DeserializationContext,wrongTokenException,JsonToken,expToken,JsonToken,START_ARRAY,exp,exception
+io.bootique.command.MultiCommand,java.util.Collections,singletonList,CommandOutcome,o,CommandOutcome,run,o,outcome
+io.bootique.test.junit.BQRuntimeDaemon,io.bootique.log.BootLogger,stderr,Throwable,th,InterruptedException,e,e,exception
+io.bootique.meta.config.ConfigMetadataCompiler,io.bootique.meta.config.ConfigMetadataCompiler,propertyTypeFromSetter,Method,maybeSetter,Method,m,m,method
+io.bootique.resource.ResourceFactoryTest,io.bootique.resource.ResourceFactoryTest,resourceContents,String,resourceId,String,cpUrl,url,uniform resource locator
+io.bootique.resource.FolderResourceFactory,io.bootique.resource.FolderResourceFactory,normalizeResourceId,String,resourceId,String,getUserDir,dir,directory
+io.bootique.BootiqueUtils,java.lang.System,arraycopy,int,destPos,int,length,dest,destination
+io.bootique.config.jackson.JsonNodeJsonParser,com.fasterxml.jackson.databind.ObjectMapper,readTree,InputStream,in,InputStream,t,t,input
+io.bootique.jackson.deserializer.YearDeserializer,java.time.Year,of,int,isoYear,int,getValueAsInt,int,integer
+io.bootique.command.CommandDecoratorIT,io.bootique.command.CommandDecorator,alsoRun,Command,command,Command,cmd,cmd,command
+io.bootique.value.DurationTest,io.bootique.value.Duration,compareTo,Duration,o,Duration,d1,d,duration
+io.bootique.BQCoreModuleExtender,com.google.inject.binder.LinkedBindingBuilder<DeclaredVariable>,toInstance,DeclaredVariable,arg0,DeclaredVariable,var,var,variable
+io.bootique.help.config.ConfigSectionGenerator,java.lang.Class<Map>,isAssignableFrom,Class<?>,cls,Class<>,classType,cls,class
+io.bootique.names.ClassToName,java.lang.Character,isUpperCase,char,ch,char,c,ch,char
+io.bootique.Bootique,io.bootique.Bootique,processExceptions,Throwable,parentTh,CreationException,ce,ce,creation exception
+io.bootique.command.CommandDecoratorIT,io.bootique.command.Builder,beforeRun,Command,command,Command,c1,c,command
+io.bootique.unit.Builder,java.lang.String,format,Object[],args,long,toMillis,millis,millisecond
+io.bootique.JsonNodeConfigurationFactoryProviderTest,org.junit.Assert,assertNotNull,Object,object,Bean1,b1,b,bean
+io.bootique.jopt.JoptCliFactory,joptsimple.OptionParser,parse,String[],arguments,String[],args,args,argumets
+io.bootique.value.PercentTest,io.bootique.value.Percent,equals,Object,obj,Percent,p1,p,percent
+io.bootique.BootiqueUtilsTest,org.mockito.stubbing.OngoingStubbing<Collection<BQModuleProvider>>,thenReturn,Collection<BQModuleProvider>,arg0,List<BQModuleProvider>,asList,arg,argument
+io.bootique.help.config.ConfigSectionGeneratorTest,io.bootique.meta.config.Builder,valuesType,ConfigMetadataNode,elementType,ConfigObjectMetadata,m1Config,m,metadata
+io.bootique.Bootique,io.bootique.BootiqueUtils,mergeArrays,String[],a2,String[],toArray,a,array
+io.bootique.JsonNodeConfigurationFactoryProvider,"java.util.Map<ParserType,Function<InputStream,Optional<JsonNode>>>",put,ParserType,key,ParserType,YAML,yaml,yaml ain't markup language
+io.bootique.meta.application.Builder,java.util.Collection<ConfigValueMetadata>,addAll,Collection<? extends ConfigValueMetadata>,c,Collection<ConfigValueMetadata>,vars,vars,variables
+io.bootique.resource.ResourceFactoryTest,io.bootique.resource.ResourceFactoryTest,resourceContents,String,resourceId,String,jarUrl,url,uniform resource locator
+io.bootique.config.jackson.InPlaceMapOverriderTest,io.bootique.config.jackson.InPlaceMapOverrider,apply,JsonNode,t,JsonNode,node,t,token
+io.bootique.log.DefaultBootLoggerTest,org.mockito.Mockito,verify,PrintStream,mock,PrintStream,mockStdout,stdout,standard output
+io.bootique.Bootique_Configuration_VarsIT,org.junit.Assert,assertEquals,Object,actual,String,l,l,actual
+io.bootique.log.DefaultBootLogger,java.lang.Throwable,printStackTrace,PrintStream,s,PrintStream,stderr,stderr,standard error
+io.bootique.config.jackson.JsonNodeConfigurationFactoryTest,org.junit.Assert,assertEquals,Object,actual,String,getP1,p,property
+io.bootique.value.PercentTest,io.bootique.value.Percent,compareTo,Percent,o,Percent,p1,o,object
+io.bootique.jackson.DurationValueYamlDeserializerIT,org.junit.Assert,assertEquals,Object,expected,Duration,ofMillis,millis,millisecond
+io.bootique.config.jackson.InPlaceLeftHandMergerTest,com.fasterxml.jackson.core.JsonFactory,createParser,String,content,String,json,json,javascript object notation
+io.bootique.jackson.deserializer.YearDeserializer,java.time.Year,of,int,isoYear,int,getValueAsInt,iso,international standards organization
+io.bootique.Bootique_Configuration_PropertiesIT,org.junit.Assert,assertEquals,long,actual,int,e,e,equal
+io.bootique.jackson.deserializer.JSR310DateTimeDeserializerBase,io.bootique.jackson.deserializer.JSR310DateTimeDeserializerBase<T>,withDateFormat,DateTimeFormatter,dtf,DateTimeFormatter,df,dtf,data time formatter
+io.bootique.ModuleExtender,com.google.inject.multibindings.Multibinder,newSetBinder,Key<V>,key,Key<V>,diKey,di,discovery
+io.bootique.help.ConsoleAppender,java.lang.Appendable,append,CharSequence,csq,String,p,csq,char sequence
+io.bootique.resource.ResourceFactoryTest,io.bootique.resource.ResourceFactoryTest,resourceContents,String,resourceId,String,cpUrl,cp,class path
+io.bootique.BootiqueUtilsTest,org.junit.Assert,assertThat,Collection<BQModuleProvider>,actual,Collection<BQModuleProvider>,bqModuleProviders,bq,bootique
+io.bootique.BootiqueUtils,java.lang.System,arraycopy,Object,src,String[],a2,a,array
+io.bootique.test.junit.PolymorphicConfigurationChecker,io.bootique.test.junit.PolymorphicConfigurationChecker<T>,isConcrete,Class<?>,type,Class<>,t,t,type
+io.bootique.config.jackson.InPlaceLeftHandMergerTest,com.fasterxml.jackson.databind.ObjectMapper,readTree,JsonParser,p,JsonParser,parser,p,parser
+io.bootique.RuntimeModuleMerger,"java.util.Map<Class<? extends Module>,RuntimeModule>",putIfAbsent,RuntimeModule,value,RuntimeModule,rm,rm,runtime module
+io.bootique.test.junit.BQDaemonTestFactoryIT,org.junit.Assert,assertNotSame,Object,unexpected,BQRuntime,r1,r,runtime
+io.bootique.meta.config.ConfigMetadataCompilerTest,org.junit.Assert,assertNotNull,Object,object,ConfigMapMetadata,md,md,metadata
+io.bootique.command.CommandManagerIT,io.bootique.unit.Builder,module,Module,m,Module,defaultCommandModule,m,module
+io.bootique.config.jackson.InPlaceResourceOverrider,java.util.Optional<JsonNode>,orElse,JsonNode,other,JsonNode,jsonNode,json,javascript object notation
+io.bootique.jackson.deserializer.JSR310DateTimeDeserializerBase,io.bootique.jackson.deserializer.JSR310DateTimeDeserializerBase<T>,withDateFormat,DateTimeFormatter,dtf,DateTimeFormatter,df,df,data formatter
+io.bootique.RuntimeModuleMergerTest,java.util.List<BQModule>,set,BQModule,element,BQModule,createBQModule,bq,bootique
+io.bootique.BQCoreModule,java.lang.Boolean,valueOf,boolean,b,boolean,containsKey,b,boolean
+io.bootique.JsonNodeConfigurationFactoryProviderTest,org.junit.Assert,assertEquals,long,actual,int,i,i,integer
+io.bootique.jackson.deserializer.InstantDeserializer,"java.util.function.Function<TemporalAccessor,T>",apply,TemporalAccessor,t,TemporalAccessor,acc,acc,accessor
+io.bootique.config.CliConfigurationSource_WebConfigSourceIT,io.bootique.config.CliConfigurationSourceTest,createCli,String[],configOptions,String,url,url,uniform resource locator
+io.bootique.command.CommandDecoratorIT,io.bootique.command.CommandDecorator,alsoRun,Command,command,Command,cmd,cmd,command

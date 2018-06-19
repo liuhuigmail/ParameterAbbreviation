@@ -1,0 +1,101 @@
+ClassNameInvoke,ClassNameOriginal,FunctionName,FormalType,FormalName,ActualType,ActualName,Abbreviation,Expansion
+org.apache.maven.project.artifact.DefaultMavenMetadataCacheTest,junit.framework.TestCase,assertNotSame,Object,actual,Artifact,a2,a,artifact
+org.apache.maven.artifact.resolver.filter.FilterHashEqualsTest,org.apache.maven.artifact.resolver.filter.IncludesArtifactFilter,equals,Object,obj,IncludesArtifactFilter,f2,f,filter
+org.apache.maven.model.merge.MavenModelMerger,org.apache.maven.model.merge.ModelMerger,mergeSite,Site,target,Site,tgt,tgt,target
+org.apache.maven.repository.metadata.DefaultGraphConflictResolverTest,org.apache.maven.repository.metadata.MetadataGraph,getIncidentEdges,MetadataGraphVertex,vertex,MetadataGraphVertex,v3,v,vertex
+org.apache.maven.artifact.versioning.DefaultArtifactVersion,java.lang.Integer,valueOf,String,s,String,part2,s,string
+org.apache.maven.model.interpolation.AbstractModelInterpolatorTest,org.apache.maven.model.BuildBase,addResource,Resource,resource,Resource,res2,res,resource
+org.apache.maven.settings.SettingsUtilsTest,org.apache.maven.settings.Profile,setActivation,Activation,activation,Activation,a,a,activation
+org.apache.maven.artifact.resolver.DebugResolutionListener,org.codehaus.plexus.logging.Logger,debug,String,arg0,String,msg,msg,message
+org.apache.maven.repository.legacy.resolver.DefaultLegacyArtifactCollector,org.apache.maven.artifact.Artifact,setDependencyFilter,ArtifactFilter,artifactFilter,AndArtifactFilter,aaf,aaf,and artifact filter
+org.apache.maven.plugin.internal.DefaultLegacySupportTest,org.apache.maven.plugin.internal.DefaultLegacySupport,setSession,MavenSession,session,MavenSession,m1,m,maven
+org.apache.maven.lifecycle.internal.LifecycleModuleBuilder,java.lang.Thread,setContextClassLoader,ClassLoader,cl,ClassLoader,getOriginalContextClassLoader,cl,class loader
+org.apache.maven.plugin.internal.DefaultMavenPluginManager,java.util.jar.JarFile,getInputStream,ZipEntry,ze,ZipEntry,pluginDescriptorEntry,ze,zip entry
+org.apache.maven.project.ModelUtilsTest,org.apache.maven.model.Dependency,setVersion,String,version,String,ver,ver,version
+org.apache.maven.lifecycle.internal.builder.multithreaded.ConsolePrinter,java.io.ByteArrayOutputStream,writeTo,OutputStream,out,PrintStream,originalSystemOUtStream,out,output
+org.apache.maven.artifact.resolver.DefaultArtifactResolverTest,java.lang.ThreadGroup,enumerate,ThreadGroup[],list,ThreadGroup[],tgList,tg,thread group
+org.apache.maven.model.building.ComplexActivationTest,org.apache.maven.model.building.DefaultModelBuildingRequest,setSystemProperties,Properties,systemProperties,Properties,sysProperties,sys,system
+org.apache.maven.repository.internal.LocalSnapshotMetadata,"java.util.Map<String,SnapshotVersion>",put,SnapshotVersion,value,SnapshotVersion,sv,sv,snapshot version
+org.apache.maven.artifact.DefaultArtifact,org.codehaus.plexus.util.StringUtils,isNotEmpty,String,str,String,classifier,str,string
+org.apache.maven.model.merge.ModelMerger,org.apache.maven.model.merge.ModelMerger,mergeRepositoryPolicy,RepositoryPolicy,source,RepositoryPolicy,src,src,source
+org.apache.maven.plugin.CacheKey,org.apache.maven.plugin.CacheKey,eq,Set<String>,s1,Set<String>,collect,s,set
+org.apache.maven.repository.metadata.DefaultGraphConflictResolver,org.apache.maven.repository.metadata.MetadataGraph,setEntry,MetadataGraphVertex,entry,MetadataGraphVertex,resEntry,res,repository
+org.apache.maven.artifact.repository.MavenArtifactRepositoryTest,org.apache.maven.artifact.repository.MavenArtifactRepository,equals,Object,obj,MavenArtifactRepositorySubclass,r2,r,repository
+org.apache.maven.toolchain.merge.MavenToolchainMergerTest,org.apache.maven.toolchain.merge.MavenToolchainMerger,merge,PersistedToolchains,dominant,PersistedToolchains,pt,pt,persisted tool
+org.apache.maven.cli.MavenCli,java.lang.System,setErr,PrintStream,err,PrintStream,ps,ps,print stream
+org.apache.maven.plugin.internal.ValidatingConfigurationListener,"java.util.Map<String,Parameter>",put,Parameter,value,Parameter,param,param,parameter
+org.apache.maven.execution.DefaultMavenExecutionRequestPopulatorTest,org.apache.maven.settings.Settings,addProfile,Profile,profile,Profile,p,p,profile
+org.apache.maven.project.DefaultMavenProjectBuilderTest,org.apache.maven.project.AbstractMavenProjectTestCase,getProject,File,pom,File,f1,f,file
+org.apache.maven.artifact.versioning.ComparableVersionTest,org.apache.maven.artifact.versioning.ComparableVersionTest,newComparable,String,version,String,v1,v,version
+org.apache.maven.repository.legacy.resolver.conflict.NewestConflictResolverTest,org.apache.maven.repository.legacy.resolver.conflict.AbstractConflictResolverTest,assertResolveConflict,ResolutionNode,actualNode2,ResolutionNode,a2n,a,actual
+org.apache.maven.artifact.versioning.DefaultArtifactVersionTest,java.lang.Object,equals,Object,obj,ArtifactVersion,v2,obj,object
+org.apache.maven.artifact.versioning.ComparableVersionTest,java.lang.Comparable,compareTo,Object,o,Comparable,c2,o,object
+org.apache.maven.artifact.versioning.DefaultArtifactVersionTest,java.lang.Object,equals,Object,obj,ArtifactVersion,v2,v,version
+org.apache.maven.repository.legacy.LegacyRepositorySystem,java.util.Collections,singletonList,ArtifactRepository,o,ArtifactRepository,original,o,original
+org.apache.maven.repository.metadata.MetadataGraph,org.apache.maven.repository.metadata.MetadataGraph,processTreeNodes,MetadataTreeNode,node,MetadataTreeNode,n,n,node
+org.apache.maven.artifact.versioning.VersionRangeTest,junit.framework.TestCase,assertEquals,String,message,String,CHECK_NUM_RESTRICTIONS,num,number
+org.apache.maven.plugin.CacheUtils,org.apache.maven.plugin.CacheUtils,eq,String,s1,String,getScope,s,scope
+org.apache.maven.repository.legacy.resolver.conflict.NewestConflictResolverTest,org.apache.maven.repository.legacy.resolver.conflict.AbstractConflictResolverTest,assertResolveConflict,ResolutionNode,expectedNode,ResolutionNode,a2n,n,node
+org.apache.maven.settings.validation.DefaultSettingsValidatorTest,org.apache.maven.settings.validation.DefaultSettingsValidatorTest,assertContains,String,msg,String,get,msg,message
+org.apache.maven.model.building.DefaultModelBuilder,org.apache.maven.model.building.ModelProblemCollector,add,ModelProblemCollectorRequest,req,ModelProblemCollectorRequest,mpcr,mpcr,mode problem collector request
+org.apache.maven.project.artifact.DefaultMavenMetadataCacheTest,junit.framework.TestCase,assertNotSame,Object,expected,ArtifactRepository,rr1,rr,repository
+org.apache.maven.model.plugin.LifecycleBindingsMerger,org.apache.maven.model.PluginExecution,setPriority,int,priority,int,min,min,minimum
+org.apache.maven.project.inheritance.DefaultModelInheritanceAssembler,org.apache.maven.model.ModelBase,setDependencyManagement,DependencyManagement,dependencyManagement,DependencyManagement,parentDepMgmt,mgmt,management
+org.apache.maven.repository.legacy.DefaultUpdateCheckManager,java.nio.channels.FileChannel,lock,long,size,long,MAX_VALUE,max,maximum
+org.apache.maven.artifact.versioning.ManagedVersionMap,"java.util.HashMap<String,Artifact>",putAll,"Map<? extends String,? extends Artifact>",m,"Map<String,Artifact>",map,m,map
+org.apache.maven.graph.DefaultGraphBuilder,org.codehaus.plexus.util.StringUtils,isNotEmpty,String,str,String,loc,loc,location
+org.apache.maven.artifact.ArtifactUtils,java.lang.String,regionMatches,int,len,int,length,len,length
+org.apache.maven.repository.MetadataResolutionResult,org.apache.maven.repository.MetadataResolutionResult,initList,List<Artifact>,l,List<Artifact>,missingArtifacts,l,list
+org.apache.maven.repository.legacy.DefaultWagonManagerTest,org.apache.maven.repository.legacy.DefaultWagonManager,getArtifact,List<ArtifactRepository>,remoteRepositories,List<ArtifactRepository>,repos,repos,repository
+org.apache.maven.settings.io.xpp3.SettingsXpp3Reader,org.codehaus.plexus.util.xml.pull.XmlPullParser,getAttributeValue,int,arg0,int,i,i,integer
+org.apache.maven.repository.legacy.DefaultWagonManager,org.apache.maven.wagon.Wagon,connect,AuthenticationInfo,arg1,AuthenticationInfo,authenticationInfo,info,information
+org.apache.maven.project.LegacyLocalRepositoryManager,java.lang.String,substring,int,endIndex,int,idx,idx,index
+org.apache.maven.profiles.io.xpp3.ProfilesXpp3Reader,java.text.DateFormat,parse,String,source,String,s,s,source
+org.apache.maven.artifact.versioning.StringItem,java.lang.String,valueOf,int,i,int,indexOf,i,index
+org.apache.maven.artifact.resolver.ArtifactResolverTest,java.util.Set<Artifact>,contains,Object,o,Artifact,h,h,high
+org.apache.maven.model.validation.DefaultModelValidator,org.codehaus.plexus.util.StringUtils,clean,String,str,String,s2,s,string
+org.apache.maven.repository.metadata.DefaultGraphConflictResolver,org.apache.maven.repository.metadata.DefaultGraphConflictResolver,visit,MetadataGraph,graph,MetadataGraph,g,g,graph
+org.apache.maven.lifecycle.internal.DefaultMojoExecutionConfigurator,org.apache.maven.lifecycle.internal.DefaultMojoExecutionConfigurator,findPlugin,String,groupId,String,g,g,group
+org.apache.maven.project.canonical.CanonicalProjectBuilderTest,org.apache.maven.project.AbstractMavenProjectTestCase,getProject,File,pom,File,f,f,file
+org.apache.maven.cli.MavenCli,org.codehaus.plexus.util.StringUtils,split,String,text,String,extClassPath,ext,text
+org.apache.maven.plugin.PluginParameterExpressionEvaluator,java.lang.String,substring,int,beginIndex,int,exprStartDelimiter,expr,expression
+org.apache.maven.cli.MavenCli,org.apache.maven.execution.MavenExecutionRequest,setExcludedProjects,List<String>,projects,List<String>,exclProjects,excl,exclude
+org.apache.maven.cli.transfer.ConsoleMavenTransferListener,java.lang.StringBuilder,append,CharSequence,s,String,block,s,sequence
+org.apache.maven.project.artifact.DefaultMavenMetadataCacheTest,junit.framework.TestCase,assertNotSame,Object,actual,ArtifactRepository,rr2,rr,repository
+org.apache.maven.plugin.CacheUtils,org.apache.maven.plugin.CacheUtils,policyEquals,RepositoryPolicy,p2,RepositoryPolicy,getPolicy,p,policy
+org.apache.maven.properties.internal.EnvironmentUtils,"java.util.Hashtable<Object,Object>",putAll,"Map<? extends Object,? extends Object>",t,Properties,envVars,env,environment
+org.apache.maven.project.ExtensionDescriptorBuilderTest,junit.framework.TestCase,assertNotNull,Object,object,ExtensionDescriptor,ed,ed,extension descriptor
+org.apache.maven.repository.legacy.LegacyRepositorySystem,org.apache.maven.repository.legacy.LegacyRepositorySystem,getMessage,Throwable,error,ResourceDoesNotExistException,e,e,error
+org.apache.maven.project.MavenProject,org.codehaus.plexus.util.xml.Xpp3Dom,mergeXpp3Dom,Xpp3Dom,dominant,Xpp3Dom,newDom,dom,dominant
+org.apache.maven.model.interpolation.AbstractModelInterpolatorTest,org.apache.maven.model.BuildBase,addResource,Resource,resource,Resource,res3,res,resource
+org.apache.maven.project.inheritance.DefaultModelInheritanceAssembler,org.apache.maven.model.ModelBase,setDistributionManagement,DistributionManagement,distributionManagement,DistributionManagement,childDistMgmt,dist,distribution
+org.apache.maven.repository.LegacyRepositorySystemTest,org.apache.maven.repository.RepositorySystem,createLocalRepository,File,localRepository,File,localRepoDir,dir,directory
+org.apache.maven.profiles.ProfilesConversionUtils,org.apache.maven.model.ModelBase,addRepository,Repository,repository,Repository,convertFromProfileXmlRepository,xml,extensible markup language
+org.apache.maven.cli.MavenCli,com.google.common.io.Files,toString,Charset,charset,Charset,UTF_8,utf,unicode transformation format
+org.apache.maven.repository.legacy.DefaultUpdateCheckManager,java.lang.StringBuilder,append,String,str,String,getUrl,url,uniform resource locator
+org.apache.maven.toolchain.merge.MavenToolchainMerger,org.codehaus.plexus.util.xml.Xpp3Dom,mergeXpp3Dom,Xpp3Dom,recessive,Xpp3Dom,tgt,tgt,target
+org.apache.maven.cli.MavenCli,java.lang.System,setOut,PrintStream,out,PrintStream,stdout,stdout,standard output
+org.apache.maven.cli.MavenCli,java.lang.System,setErr,PrintStream,err,PrintStream,stderr,stderr,standard error
+org.apache.maven.repository.metadata.DefaultGraphConflictResolverTest,org.apache.maven.repository.metadata.MetadataGraph,getIncidentEdges,MetadataGraphVertex,vertex,MetadataGraphVertex,v4,v,vertex
+org.apache.maven.model.validation.DefaultModelValidator,org.apache.maven.model.validation.DefaultModelValidator,validateStringNotEmpty,InputLocationTracker,tracker,Model,m,m,model
+org.apache.maven.plugin.CacheUtils,org.apache.maven.plugin.CacheUtils,repositoryEquals,RemoteRepository,r1,RemoteRepository,next,r,remote
+org.apache.maven.plugin.PluginParameterExpressionEvaluatorTest,org.apache.maven.plugin.PluginParameterExpressionEvaluatorTest,createExpressionEvaluator,PluginDescriptor,pluginDescriptor,PluginDescriptor,pd,pd,plugin descriptor
+org.apache.maven.plugin.internal.DefaultMavenPluginManager,org.eclipse.aether.graph.DependencyNode,accept,DependencyVisitor,arg0,PreorderNodeListGenerator,nlg,nlg,node list generator
+org.apache.maven.repository.MirrorProcessorTest,org.apache.maven.repository.DefaultMirrorSelector,isExternalRepo,ArtifactRepository,originalRepository,ArtifactRepository,getRepo,repo,repository
+org.apache.maven.cli.event.ExecutionEventLogger,org.apache.maven.cli.event.ExecutionEventLogger,appendForkInfo,MojoDescriptor,md,MojoDescriptor,getMojoDescriptor,md,mojo descriptor
+org.apache.maven.repository.legacy.LegacyRepositorySystem,org.codehaus.plexus.PlexusContainer,lookup,String,arg1,String,IDE_WORKSPACE,ide,integrated development environment
+org.apache.maven.cli.CLIManagerDocumentationTest,org.codehaus.plexus.util.FileUtils,fileWrite,String,arg2,String,getOptionsAsHtml,html,hyper text markup language
+org.apache.maven.artifact.repository.MavenArtifactRepository,java.lang.Integer,parseInt,String,s,String,hexStr,hex,hexadecimal
+org.apache.maven.project.ModelUtilsTest,org.apache.maven.model.Dependency,setGroupId,String,groupId,String,gid,gid,group identifier
+org.apache.maven.ProjectDependenciesResolverTest,org.apache.maven.AbstractCoreMavenComponentTestCase,createMavenSession,Properties,executionProperties,Properties,eps,eps,encapsulated post script
+org.apache.maven.toolchain.building.ToolchainsBuildingException,java.io.PrintWriter,print,String,s,String,getMessage,s,string
+org.apache.maven.repository.legacy.DefaultWagonManager,java.lang.reflect.Method,invoke,Object[],args,Properties,headers,args,arguments
+org.apache.maven.project.ModelUtilsTest,org.codehaus.plexus.util.xml.Xpp3Dom,addChild,Xpp3Dom,xpp3Dom,Xpp3Dom,param,xpp,xml pull parser
+org.apache.maven.plugin.logging.SystemStreamLog,java.lang.Throwable,printStackTrace,PrintWriter,s,PrintWriter,pWriter,p,print
+org.apache.maven.profiles.io.xpp3.ProfilesXpp3Reader,org.apache.maven.profiles.io.xpp3.ProfilesXpp3Reader,read,Reader,reader,XmlStreamReader,newXmlReader,xml,extensible markup language
+org.apache.maven.repository.metadata.DefaultGraphConflictResolver,org.apache.maven.repository.metadata.DefaultGraphConflictResolver,findLinkedSubgraph,MetadataGraph,g,MetadataGraph,res,res,research
+org.apache.maven.settings.SettingsUtilsTest,org.apache.maven.settings.Activation,setOs,ActivationOS,os,ActivationOS,ao,os,operating system
+org.apache.maven.repository.MetadataGraph,java.lang.Object,equals,Object,obj,MavenArtifactMetadata,md,md,metadata
+org.apache.maven.model.interpolation.AbstractModelInterpolatorTest,org.apache.maven.model.interpolation.ModelInterpolator,interpolateModel,File,projectDir,File,basedir,dir,directory
+org.apache.maven.rtinfo.internal.DefaultRuntimeInformation,org.codehaus.plexus.logging.Logger,warn,Throwable,arg1,IOException,e,e,exception
+org.apache.maven.lifecycle.internal.builder.multithreaded.ThreadBoundPrintStream,java.io.PrintStream,print,boolean,b,boolean,x,b,boolean
